@@ -25,6 +25,7 @@ import { ES_ES_AFFIRMATIONS } from './affirmations-content/es-ES';
 import { NL_NL_AFFIRMATIONS } from './affirmations-content/nl-NL';
 import { PT_BR_AFFIRMATIONS } from './affirmations-content/pt-BR';
 import { DA_DK_AFFIRMATIONS } from './affirmations-content/da-DK';
+import { NB_NO_AFFIRMATIONS } from './affirmations-content/nb-NO';
 import type { AffirmationEntry } from './affirmations-content/types';
 
 export type { AffirmationEntry };
@@ -37,6 +38,7 @@ const AFFIRMATIONS_BY_LOCALE: Record<string, AffirmationEntry[]> = {
   'nl-NL': NL_NL_AFFIRMATIONS,
   'pt-BR': PT_BR_AFFIRMATIONS,
   'da-DK': DA_DK_AFFIRMATIONS,
+  'nb-NO': NB_NO_AFFIRMATIONS,
 };
 
 /**

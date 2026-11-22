@@ -20,6 +20,7 @@ import { ES_ES_AFFIRMATIONS } from '../affirmations-content/es-ES';
 import { NL_NL_AFFIRMATIONS } from '../affirmations-content/nl-NL';
 import { PT_BR_AFFIRMATIONS } from '../affirmations-content/pt-BR';
 import { DA_DK_AFFIRMATIONS } from '../affirmations-content/da-DK';
+import { NB_NO_AFFIRMATIONS } from '../affirmations-content/nb-NO';
 
 const EXPECTED_COUNT = 198;
 
@@ -31,6 +32,7 @@ const LOCALE_LISTS = [
   { tag: 'nl-NL', entries: NL_NL_AFFIRMATIONS },
   { tag: 'pt-BR', entries: PT_BR_AFFIRMATIONS },
   { tag: 'da-DK', entries: DA_DK_AFFIRMATIONS },
+  { tag: 'nb-NO', entries: NB_NO_AFFIRMATIONS },
 ];
 
 describe('affirmations seed lists', () => {

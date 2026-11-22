@@ -22,6 +22,7 @@ import { ES_ES_WORDS } from '../word-of-day-words/es-ES';
 import { NL_NL_WORDS } from '../word-of-day-words/nl-NL';
 import { PT_BR_WORDS } from '../word-of-day-words/pt-BR';
 import { DA_DK_WORDS } from '../word-of-day-words/da-DK';
+import { NB_NO_WORDS } from '../word-of-day-words/nb-NO';
 
 const VALID_POS: PartOfSpeech[] = ['adjective', 'noun', 'verb', 'adverb'];
 const EXPECTED_COUNT = 732; // 2 × 366
@@ -34,6 +35,7 @@ const LOCALE_LISTS = [
   { tag: 'nl-NL', words: NL_NL_WORDS },
   { tag: 'pt-BR', words: PT_BR_WORDS },
   { tag: 'da-DK', words: DA_DK_WORDS },
+  { tag: 'nb-NO', words: NB_NO_WORDS },
 ];
 
 describe('word-of-day seed lists', () => {

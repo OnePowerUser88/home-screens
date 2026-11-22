@@ -28,6 +28,7 @@ import { ES_ES_WORDS } from './word-of-day-words/es-ES';
 import { NL_NL_WORDS } from './word-of-day-words/nl-NL';
 import { PT_BR_WORDS } from './word-of-day-words/pt-BR';
 import { DA_DK_WORDS } from './word-of-day-words/da-DK';
+import { NB_NO_WORDS } from './word-of-day-words/nb-NO';
 import type { WordEntry, PartOfSpeech } from './word-of-day-words/types';
 
 export type { WordEntry, PartOfSpeech };
@@ -43,6 +44,7 @@ const WORDS_BY_LOCALE: Record<string, WordEntry[]> = {
   'nl-NL': NL_NL_WORDS,
   'pt-BR': PT_BR_WORDS,
   'da-DK': DA_DK_WORDS,
+  'nb-NO': NB_NO_WORDS,
 };
 
 /**
