@@ -21,6 +21,7 @@ const LOCALE_TODAY: Record<string, string> = {
   'nl-NL': 'Vandaag',
   'pt-BR': 'Hoje',
   'da-DK': 'I dag',
+  'nb-NO': 'I dag',
 };
 
 const CHORE_DATA = {

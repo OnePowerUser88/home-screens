@@ -47,6 +47,9 @@ export function googleNewsEdition(locale: string | undefined): { hl: string; gl:
     case 'nl': return { hl: 'nl', gl: 'NL', ceid: 'NL:nl' };
     case 'pt': return { hl: 'pt-BR', gl: 'BR', ceid: 'BR:pt-419' };
     case 'da': return { hl: 'da', gl: 'DK', ceid: 'DK:da' };
+    case 'nb':
+    case 'no':
+    case 'nn': return { hl: 'no', gl: 'NO', ceid: 'NO:no' };
     default: return { hl: 'en-US', gl: 'US', ceid: 'US:en' };
   }
 }

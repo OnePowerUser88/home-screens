@@ -103,6 +103,9 @@ function languageSiblingDefault(language: string): string | undefined {
     case 'nl': return 'nl-NL';
     case 'pt': return 'pt-BR';
     case 'da': return 'da-DK';
+    case 'nb':
+    case 'no':
+    case 'nn': return 'nb-NO';
     default: return undefined;
   }
 }

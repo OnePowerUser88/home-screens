@@ -305,6 +305,52 @@ const SHARED_UNTRANSLATABLE: ReadonlySet<string> = new Set([
  * locale's own files; anything internally inconsistent was translated instead.
  */
 const LOCALE_UNTRANSLATABLE: Readonly<Record<string, ReadonlySet<string>>> = {
+  'nb-NO': new Set([
+    // "Dessert" is the Norwegian word too (a meal's course, a kind of dish).
+    'modules|meal-planner.courses.dessert',
+    'core|meal.kind.dessert',
+    // "Bonus" is the same word in this language (the ticket history's bonus line).
+    'remote|rewardsView.tickets.bonusLine',
+    // "Bonus" is the same word in this language (bonus chores).
+    'modules|chore-chart.bonus.heading',
+    'modules|chore-chart.choreForm.kindBonus',
+    // "Person" is the same word in Norwegian (a label beside an icon's use).
+    'core|customIcons.kinds.person',
+    // Wall names that are the same word in Norwegian.
+    'editor|backgroundPicker.starters.pattern-diagonal',
+    'editor|backgroundPicker.starters.sand',
+    'core|launcher.editor.title',
+    // "Halloween" is the same word in this language.
+    'editor|configSections.calendarRules.artNames.halloween',
+    // "Person" is the same word in this language.
+    'editor|configSections.fullscreen-chore-chart.layoutByPerson',
+    'editor|configSections.financial.symbolLabel',
+    // '1D' / '5D' chart captions: day = dag, so the letter matches en-US.
+    'modules|stock-ticker.chartLabels.day',
+    'modules|stock-ticker.chartLabels.week',
+    'editor|propertyPanel.fields.h',
+    'editor|settings.integrationsPage.microsoft.clientIdLabel',
+    // "Upload" is the same word in Norwegian (media page).
+    'editor|settings.mediaPage.upload',
+    'modules|clock.am',
+    'modules|clock.pm',
+    'modules|fullscreen-calendar.am',
+    'modules|fullscreen-calendar.pm',
+    'modules|video.name',
+    // "Offline" is the standard word in Norwegian.
+    'remote|displayHero.stateOffline',
+    // "Video" is the same word here (the phone's photo viewer and tile labels).
+    'remote|photosTab.videoLabel',
+    'remote|photosTab.viewer.videoDetails',
+    // "Whiteboard" and "Layouts" are the everyday Norwegian words too.
+    'editor|configSections.notes.viewWhiteboard',
+    'editor|configSections.notes.groupLayouts',
+    // Photo sources: the same words in this language.
+    'editor|photoSources.immich.album',
+    'editor|photoSources.nasa.ideas.mars',
+    'editor|photoSources.nasa.ideas.saturn',
+    'editor|photoSources.nasa.ideas.jupiter',
+  ]),
   'da-DK': new Set([
     // "Dessert" is the Danish word too (a meal's course, a kind of dish).
     'modules|meal-planner.courses.dessert',
@@ -981,6 +1027,7 @@ const LOCALE_UNTRANSLATABLE: Readonly<Record<string, ReadonlySet<string>>> = {
  * you translate more; never raise one to make a build pass.
  */
 const BUDGETS: Readonly<Record<string, number>> = {
+  'nb-NO': 0,
   'da-DK': 0,
   'de-DE': 0,
   'es-ES': 0,

@@ -1,0 +1,1606 @@
+{
+  "refusals": {
+    "dayNotes": {
+      "textRequired": "En dagsnote skal ha et par ord.",
+      "textTooLong": "Højst {max} tegn.",
+      "badDate": "Den dag finnes ikke i kalenderen.",
+      "dayOver": "Den dag er forbi. Velg i dag eller en dag etter.",
+      "dayTooFar": "Den dag er for langt vekk. Velg en dag innen for et år.",
+      "duplicate": "Den note er der allerede.",
+      "dayFull": "En dag kan ha {max} noter. Ret eller fjern en først.",
+      "tooMany": "Der er for mange dagsnoter. Fjern noen først.",
+      "noteGone": "Den note er der ikke lenger."
+    },
+    "timers": {
+      "notRunning": "Der kjører ingen timer.",
+      "routineGone": "Den rutine finnes ikke lenger. Velg en annen.",
+      "badRequest": "Det virket ikke. Last på nytt siden, og prøv igjen.",
+      "invalid": "Den rutine kan ikke lagres, som den er. Sjekk dens navn og trin.",
+      "reload": "Last på nytt siden, og prøv igjen.",
+      "revision": "En annen har endret rutinene. Din seneste endring ble ikke lagret. Prøv igjen."
+    }
+  },
+  "tabs": {
+    "control": "Kontroll",
+    "chores": "Oppgaver",
+    "lists": "Lister",
+    "meals": "Måltider",
+    "photos": "Bilder",
+    "timers": "Timere",
+    "notes": "Noter"
+  },
+  "statusBar": {
+    "title": "Fjernbetjening",
+    "settingsAriaLabel": "Innstillinger",
+    "hubConnected": "Tilkoblet til Home Screens",
+    "hubDisconnected": "Kan ikke nå Home Screens"
+  },
+  "connectionBanner": {
+    "unreachable": "Kan ikke nå Home Screens. Sjekk, at denne telefon er på hjemmets wi-fi, og at hubben er påslått.",
+    "restarting": "Home Screens starter på nytt. Forbinder igjen om cirka 20 sekunder…",
+    "rebooting": "Enheten starter på nytt. Forbinder igjen om cirka et minut…"
+  },
+  "hubRequest": {
+    "saveFailed": "Kunne ikke nå Home Screens, så det ble ikke lagret. Sjekk forbindelsen, og prøv igjen."
+  },
+  "backupReminder": {
+    "daysAgoSingular": "Du har ikke foretaget i {n} dag.",
+    "daysAgoPlural": "Du har ikke foretaget i {n} dager.",
+    "backupButton": "Sikkerhetskopi",
+    "savingButton": "Gemmer…",
+    "dismissAriaLabel": "Afvis"
+  },
+  "updateAvailable": {
+    "message": "Oppdatering tilgjengelig: v{version}",
+    "dismissAriaLabel": "Afvis",
+    "hint": "Installer den fra editoren på en datamaskin under Vedlikehold > System og oppdateringer.",
+    "openEditor": "Åpne editoren"
+  },
+  "displayHero": {
+    "stateActive": "Aktiv",
+    "stateDimmed": "Deaktiveret",
+    "stateAsleep": "Slumrer",
+    "stateOffline": "Offline",
+    "updatedTimeAgo": "Oppdatert {ago}",
+    "lastSeenTimeAgo": "Sidst set {ago}",
+    "screenIndex": "Skjerm {current} av {total}",
+    "waiting": "Venter på skjerm…",
+    "unreachable": "Skjerm er ikke tilgjengelig",
+    "notConnectedTitle": "Skjermen har ikke oprettet forbindelse ennå",
+    "notConnectedHint": "Sjekk, at den er påslått, eller åpne Home Screens på en datamaskin for å gjøre oppsettet ferdig.",
+    "theDisplay": "Skjermen",
+    "allHeading": "Alle skjermer",
+    "rowNotConnected": "Ikke tilkoblet ennå",
+    "pickOneHint": "Velg én skjerm for å skifte dens side eller profil.",
+    "controlsPaused": "Styringen holder pause, til den er tilkoblet igjen."
+  },
+  "screenControls": {
+    "prevAriaLabel": "Forrige skjerm",
+    "nextAriaLabel": "Neste skjerm"
+  },
+  "quickActions": {
+    "wakeDisplay": "Vekk skjerm",
+    "sleepDisplay": "Slumr skjerm",
+    "sendAlert": "Send advarsel",
+    "waitingFor": "Venter på {name}…",
+    "waitingForAll": "Venter på skjermene…",
+    "waitingForUnnamed": "Venter på skjermen…"
+  },
+  "brightnessCard": {
+    "label": "Lysstyrke",
+    "valueAriaLabel": "Lysstyrke {percent}%",
+    "unknownAriaLabel": "Lysstyrke, ikke meldt ennå"
+  },
+  "profileSwitcher": {
+    "heading": "Profiler",
+    "noProfile": "Alle sider",
+    "scheduledNote": "{profile} kjører etter planen like nå. Det, du velger her, starter, når den er slut."
+  },
+  "displayPicker": {
+    "targeting": "Send til",
+    "allLabel": "Alle skjermer"
+  },
+  "mobileColorPicker": {
+    "colorLabel": "Farge",
+    "customColorTitle": "Brugerdefineret farge"
+  },
+  "choresTab": {
+    "changedElsewhere": "En annen har endret oppgavene. Din seneste endring ble ikke lagret. Prøv igjen.",
+    "header": "Oppgaver",
+    "headerFor": "Oppgaver for {name}",
+    "switchHint": "Er du ikke {name}? Tryk på ditt navn for å skifte.",
+    "subNav": {
+      "today": "I dag",
+      "manage": "Administrér",
+      "rewards": "Belønninger"
+    },
+    "empty": {
+      "title": "Der er ikke lagt til oppgaver ennå",
+      "description": "Skift til Administrér for å legge til familiemedlemmer og oppgaver.",
+      "kidTitle": "Ingen oppgaver ennå",
+      "kidDescription": "Bed en voksen legge til oppgaver fra sin telefon.",
+      "setUpButton": "Legg til oppgaver"
+    },
+    "warningDismissAriaLabel": "Ignorér advarsel",
+    "overspentOne": "{name} har allerede brukt de billetter, så saldoen er nå {balance}. Der skal tjenes 1 billet mer før den neste belønning.",
+    "overspentMany": "{name} har allerede brukt de billetter, så saldoen er nå {balance}. Der skal tjenes {owed} billetter mer før den neste belønning.",
+    "overspentSomeone": "Noen",
+    "memberAriaLabel": "{name}",
+    "memberAriaLabelAllDone": "{name} (avsluttet)",
+    "history": {
+      "editingPrefix": "Du setter flueben for ",
+      "editingNote": "Her vises dagens liste over oppgaver, så oppgaver, du like har lagt til, kan se ut som om de ble sprunget over.",
+      "lockedMessage": "Bed en voksen legge til de oppgaver du mangler.",
+      "editingSuffix": ". Billetter teller fortsatt med i dag."
+    },
+    "progress": {
+      "completion": "{done}/{total} avsluttet",
+      "allDone": "Alle oppgaver er klaret!"
+    },
+    "noChoresToday": "Ingen oppgaver i dag!",
+    "ticketCountSingular": "{n} billet",
+    "ticketCountPlural": "{n} billetter",
+    "choreAriaLabelMarkComplete": "Markér avsluttet: {chore}",
+    "choreAriaLabelCompleted": "Afsluttet: {chore}",
+    "saveFailed": "Kunne ikke lagre. Prøv igjen.",
+    "holdToUncheckHint": "Hold nede for å fjerne fluebenet",
+    "dayToggle": {
+      "ariaLabel": "Hvilken dag der vises",
+      "yesterday": "I går",
+      "today": "I dag"
+    },
+    "notToday": {
+      "chip": "Ikke i dag",
+      "ariaLabel": "{chore}, ikke i dag"
+    },
+    "bonus": {
+      "sectionHint": "Ekstra billetter. Snup en opgave, så er den din, eller gjør en, som alle kan.",
+      "grab": "Snup den",
+      "grabAriaLabel": "Snup {chore} for {tickets}",
+      "letGo": "Giv slip",
+      "onIt": "{name} er i gang",
+      "didIt": "{name} klarede den",
+      "youGrabbedIt": "Du snuppede den. Sett flueben, når du er ferdig.",
+      "youGotIt": "Godt klaret! +{n}",
+      "refused": {
+        "grabbed": "{name} er allerede i gang med den.",
+        "taken": "{name} har allerede klaret den.",
+        "limit": "{name} skal først gjøre sin annen bonusoppgave ferdig eller give slip på den.",
+        "notYours": "Den bonusoppgave er ikke til {name}.",
+        "notToday": "Den bonusoppgave er der ikke i dag.",
+        "limitMany": "{name} skal først gjøre en annen bonusoppgave ferdig eller give slip på den."
+      },
+      "limitLine": "Gjør den, du har snuppet, ferdig først, eller sett flueben her, hvis den er klaret.",
+      "youDidItOn": "Du klarede den i {day}s",
+      "youDidItOnDate": "Du klarede den d. {day}",
+      "didItOn": "{name} klarede den i {day}s",
+      "didItOnDate": "{name} klarede den d. {day}",
+      "limitLineMany": "Gjør en av dem, du har snuppet, ferdig først, eller sett flueben her, hvis den er klaret.",
+      "yours": "Din",
+      "didItToday": "{name} klarede den i dag",
+      "youDidItToday": "Du klarede den i dag",
+      "youreOnIt": "Den er din"
+    },
+    "dayMenu": {
+      "didIt": "{name} klarede den",
+      "notDone": "{name} har likevel ikke laget den",
+      "notTodayFor": "Ikke i dag for {name}",
+      "notTodayHint": "Ingen billetter, og det teller ikke mot {name}",
+      "notTodayEveryone": "Ikke i dag for alle",
+      "notTodayEveryoneHint": "Alle, der ikke har gjort den ennå",
+      "undoNotToday": "Den er likevel med i dag for {name}",
+      "letGoOf": "{name} gir slip på den",
+      "putBack": "Sett den tilbake",
+      "putBackHint": "Så kan den snuppes igjen",
+      "open": "Flere valg for {chore}",
+      "onTodayEveryone": "Den er likevel med i dag for alle"
+    },
+    "putBackConfirm": {
+      "title": "Sett den tilbake?",
+      "description": "»{chore}« blir ledig igjen. Ingen mister de billetter, de allerede har fået for den."
+    },
+    "loadError": "Dine oppgaver kunne ikke hentes. Sjekk, at hubben er påslått, og prøv igjen.",
+    "retry": "Prøv igjen",
+    "goalLine": {
+      "moreToGoSingular": "{n} billet mer",
+      "moreToGoPlural": "{n} billetter mer",
+      "ready": "Nok sparet opp!",
+      "ariaLabel": "Sparer opp til {name}. Åpne belønninger",
+      "label": "Sparer opp til {name}"
+    },
+    "steps": {
+      "show": "Slik gjør du {chore}",
+      "hide": "Skjul trinnene for {chore}"
+    },
+    "dayComplete": {
+      "title": "Alt er klaret, {name}!",
+      "close": "Flot!",
+      "summaryChores": {
+        "one": "{done} av {count} oppgave",
+        "other": "{done} av {count} oppgaver"
+      },
+      "summaryTickets": {
+        "one": "1 billet tjent i dag",
+        "other": "{count} billetter tjent i dag"
+      }
+    }
+  },
+  "choreHistoryNav": {
+    "jumpToTodayAriaLabel": "Spring til i dag",
+    "todayButton": "Tilbake til i dag",
+    "tileAriaLabel": "Vis {date}, {earned} av {total} barn har udført alle sine oppgaver",
+    "tileAriaLabelEmpty": "Vis {date}, ingen oppgaver",
+    "earlierButton": "Tidligere",
+    "captionToday": "Til nå i dag: {earned} av {total} har klaret alle deres oppgaver",
+    "captionPast": "{date}: {earned} av {total} har klaret alle deres oppgaver",
+    "captionPastNone": "{date}: ingenting ble krydset av"
+  },
+  "choresManage": {
+    "tabs": {
+      "chores": "Oppgaver",
+      "members": "Medlemmer"
+    },
+    "chores": {
+      "editAriaLabel": "Rediger {name}",
+      "addButton": "Legg til oppgave"
+    },
+    "choreForm": {
+      "titleNew": "Ny oppgave",
+      "titleEdit": "Rediger oppgave",
+      "nameLabel": "Navn",
+      "namePlaceholder": "Tittel på oppgave...",
+      "iconLabel": "Ikon",
+      "ticketsLabel": "Billetter",
+      "ticketsHint": "Så mange billetter tjener et barn for denne oppgave. Billetter kan byttes til belønninger.",
+      "frequencyLabel": "Frekvens",
+      "timeOfDayLabel": "Tid på dagen",
+      "dateLabel": "Dato",
+      "daysLabel": "Dager",
+      "assignToLabel": "Tildel",
+      "weeklyScheduleLabel": "Ukeskjema",
+      "coverageLabel": "Dekning: {covered} av 7 dager",
+      "rotationLabel": "Rotation",
+      "addSubmit": "Legg til oppgave",
+      "saveSubmit": "Lagre oppgave",
+      "deleteButton": "Slett oppgave",
+      "grabRulesNote": "Hvor mange én person kan snuppe, og hvor lenge en snuppet oppgave er deres, indstilles for hele familien under Bonus på fanen Administrér."
+    },
+    "choreDelete": {
+      "title": "Slett \"{name}\"?",
+      "description": "Oppgaven forsvinder. Billetter, som barna allerede har tjent for den, blir på deres kort.",
+      "confirmLabel": "Slett oppgave"
+    },
+    "starter": {
+      "cardTitle": "Start med forslag til oppgaver",
+      "cardDescription": "{count} hverdagsoppgaver, sortert etter tid på dagen. Velg dem, der passer til deres hjem. Du kan alltid endre dem senere.",
+      "cardButton": "Velg fra listen",
+      "cardNoMembers": "Legg til først dem, der bor hjemme hos dere, og velg så oppgaver til dem.",
+      "cardNoMembersButton": "Legg til familiemedlemmer",
+      "writeYourOwn": "Skriv din egen",
+      "link": "Legg til fra forslagslisten"
+    }
+  },
+  "mealsTab": {
+    "header": "Måltider",
+    "loading": "Henter måltider...",
+    "settingsButtonAriaLabel": "Åpne innstillinger for måltider",
+    "settingsButtonTitle": "Innstillinger",
+    "weekLabel": {
+      "thisWeek": "Denne uke"
+    },
+    "subNav": {
+      "week": "Uke",
+      "plan": "Madplan",
+      "library": "Bibliotek",
+      "grocery": "Dagligvarer"
+    },
+    "weekNav": {
+      "prevAriaLabel": "Forrige uke",
+      "nextAriaLabel": "Neste uke",
+      "todayButton": "I dag"
+    },
+    "confirm": {
+      "clearWeek": {
+        "title": "Nullstill matplan?",
+        "description": "Dette fjerner alle planlagte måltider i denne uke.",
+        "descriptionMealie": "Dette fjerner alle planlagte måltider i denne uke, også i Mealie.",
+        "descriptionDates": "Dette fjerner alle planlagte måltider i uken {range}.",
+        "descriptionMealieDates": "Dette fjerner alle planlagte måltider i uken {range}, også i Mealie.",
+        "confirmLabel": "Nullstill uke"
+      },
+      "deleteMeal": {
+        "title": "Slett \"{name}\"?",
+        "description": "Dette vil også fjerne måltidet fra alle planlagte tidspunkter.",
+        "descriptionPlanned": "Måltidet er planlagt til {days}. Når du sletter det, forsvinder det også fra matplanen.",
+        "moreDays": {
+          "one": "{count} dag mer",
+          "other": "{count} dager mer"
+        },
+        "confirmLabel": "Slett måltid"
+      },
+      "suggestWeek": {
+        "title": "Erstat denne uges måltider?",
+        "description": "Foreslå velger nye måltider til hele uken. De måltider, der allerede er planlagt i denne uke, blir erstattet.",
+        "titleDates": "Erstat måltidene i uken {range}?",
+        "descriptionDates": "Foreslå velger nye måltider til hele uken. De måltider, der allerede er planlagt i uken {range}, blir erstattet.",
+        "confirmLabel": "Erstat måltider"
+      },
+      "copyWeek": {
+        "title": "Erstat denne uke med siste uges måltider?",
+        "description": "De måltider, der allerede er planlagt for denne uke, erstattes av siste uges.",
+        "descriptionMealie": "De måltider, der allerede er planlagt for denne uke, erstattes av siste uges, også i Mealie.",
+        "titleDates": "Erstat uken {range} med måltidene fra uken {from}?",
+        "descriptionDates": "De måltider, der allerede er planlagt for uken {range}, erstattes av dem fra uken {from}.",
+        "descriptionMealieDates": "De måltider, der allerede er planlagt for uken {range}, erstattes av dem fra uken {from}, også i Mealie.",
+        "confirmLabel": "Erstat måltider"
+      }
+    },
+    "weekView": {
+      "todayBadge": "I dag",
+      "notPlanned": "{slot} - Ikke planlagt",
+      "activeNowSuffix": " • Nå",
+      "empty": {
+        "title": "Ingen måltider planlagt i denne uke",
+        "titleDates": "Ingen måltider planlagt i uken {range}",
+        "description": "Gå til Planlegg for å legge til måltider.",
+        "planButton": "Planlegg måltider"
+      }
+    },
+    "library": {
+      "searchPlaceholder": "Søk etter måltider...",
+      "hint": "Tryk på et måltid for å endre det, eller på skjermknappen for å vise det på veggen.",
+      "filterByAriaLabel": "Filtrér på {label}",
+      "empty": {
+        "titleNoMeals": "Ingen måltider ennå",
+        "titleNoMatches": "Ingen resultater",
+        "hintNoMeals": "Tryk på +-knappen for å legge til ditt første måltid.",
+        "hintNoMatches": "Prøv en annen søgning eller et annet filter."
+      },
+      "favoriteAddAriaLabel": "Føj til favoritter",
+      "favoriteRemoveAriaLabel": "Fjern fra favoritter",
+      "fabAriaLabel": "Legg til nyt måltid",
+      "filters": {
+        "all": "Alle",
+        "favorites": "Favoritter",
+        "side": "Tilbehør",
+        "dessert": "Desserter",
+        "drink": "Drikke",
+        "quick": "Hurtig",
+        "healthy": "Sund",
+        "comfort": "Trøstemad",
+        "kid-friendly": "Barnevenlig"
+      }
+    },
+    "loadError": "Dine måltider kunne ikke hentes. Sjekk, at hubben er påslått, og prøv igjen.",
+    "retry": "Prøv igjen",
+    "saveFailed": "Kunne ikke lagre. Prøv igjen.",
+    "saveFailedConnection": "Kunne ikke nå Home Screens, så det ble ikke lagret. Sjekk forbindelsen, og prøv igjen.",
+    "duration": {
+      "minutes": "{minutes} min",
+      "hours": "{hours} t",
+      "hoursMinutes": "{hours} t {minutes} min"
+    },
+    "notice": {
+      "copied": "Siste uges måltider er kopiert.",
+      "cleared": "Ugens måltider er fjernet.",
+      "removed": "{name} er taget av.",
+      "clearedDates": "Måltidene i uken {range} er fjernet.",
+      "copiedDates": "Måltidene fra uken {from} er kopiert.",
+      "suggested": "Måltider foreslået til denne uke.",
+      "suggestedDates": "Måltider foreslået til uken {range}.",
+      "changed": "Skiftet til {name}.",
+      "clearedMeal": {
+        "one": "{name} er taget av sammen med retten, der hørte til.",
+        "other": "{name} er taget av sammen med de {count} retter, der hørte til."
+      },
+      "deleted": "{name} er slettet.",
+      "undo": "Fortryd"
+    },
+    "showOnWall": {
+      "button": "Vis på veggen",
+      "ariaLabel": "Vis {meal} på veggen",
+      "sent": "{meal} vises nå på {where}.",
+      "takeDown": "Tag den ned",
+      "takenDown": "{meal} vises ikke lenger på {where}.",
+      "pickTitle": "Hvilken veg?",
+      "pickHint": "Denne telefon husker ditt valg til oppskrifter. Vil du sende en oppskrift et annet sted hen, så velg den veg på fanen Kontroll.",
+      "everyWall": "alle veggene",
+      "theWall": "veggen",
+      "failed": "Kunne ikke nå veggen. Prøv igjen.",
+      "mealieFailed": "Kunne ikke hente oppskriften fra Mealie. Prøv igjen.",
+      "gone": "Den oppskrift er her ikke lenger."
+    }
+  },
+  "mealForm": {
+    "titleNew": "Legg til måltid",
+    "titleEdit": "Rediger måltid",
+    "saveSubmit": "Lagre måltid",
+    "saveChangesSubmit": "Lagre endringer",
+    "savingSubmit": "Gemmer…",
+    "deleteButton": "Slett måltid",
+    "nameLabel": "Navn på måltid",
+    "namePlaceholder": "f.eks. kylling i wok",
+    "emojiSelectAriaLabel": "Velg {emoji}",
+    "prepTimeLabel": "Forberedelsestid",
+    "cookTimeLabel": "Tilberedningstid",
+    "minPlaceholder": "min",
+    "servingsLabel": "Portioner",
+    "servingsPlaceholder": "4",
+    "difficultyLabel": "Vanskelighetsgrad",
+    "kindLabel": "Slags ret",
+    "tagsLabel": "Tags",
+    "ingredientsLabel": "Ingredienser",
+    "ingredientNamePlaceholder": "Navn",
+    "ingredientAmountPlaceholder": "Mengde",
+    "removeIngredientAriaLabel": "Fjern ingrediens",
+    "addIngredientButton": "+ Legg til ingrediens",
+    "recipeUrlLabel": "Oppskrift-URL",
+    "recipeUrlPlaceholder": "https://...",
+    "notesLabel": "Noter",
+    "notesPlaceholder": "Noter om dette måltid …",
+    "ratingLabel": "Bedømmelse",
+    "ratingStarAriaLabel": "Giv {n} ut av 5 stjerner",
+    "favoriteOn": "Favorit",
+    "favoriteOff": "Føj til favoritter"
+  },
+  "mealsPlan": {
+    "actions": {
+      "suggest": "Foreslå",
+      "suggestAriaLabel": "Foreslå tilfeldige måltider",
+      "suggestMealieAriaLabel": "Udfyld de tomme aftensmåltider med oppskrifter fra Mealie",
+      "copyLastWeek": "Kopiér siste uke",
+      "copyLastWeekAriaLabel": "Kopiér siste uges plan",
+      "clear": "Ryd",
+      "clearAriaLabel": "Ryd alle planlagte måltider"
+    },
+    "empty": {
+      "title": "Ingen måltider i ditt bibliotek",
+      "description": "Legg til først måltider til ditt bibliotek, og planlegg så din uke.",
+      "addMealsButton": "Legg til måltider"
+    },
+    "slot": {
+      "addMeal": "+ Legg til måltid",
+      "planSlotAriaLabel": "Planlegg {slot} til {day}",
+      "mealFallback": "måltid",
+      "changeMealAriaLabel": "Skift {meal} for {slot}",
+      "moreCoursesAriaLabel": {
+        "one": "og 1 ret mer",
+        "other": "og {count} retter mer"
+      }
+    },
+    "picker": {
+      "title": "Velg et måltid",
+      "emptyLibrary": "Ingen lagret måltider ennå. Skriv et herover til i aften, eller lagre dem I tit lager.",
+      "typePlaceholder": "Finn et måltid, eller skriv et",
+      "searchLabel": "Søk i dine måltider, eller skriv et",
+      "subtitle": "{slot} · {day}"
+    }
+  },
+  "mealsGrocery": {
+    "itemsCountSingular": "{checked} av {total} vare",
+    "itemsCountPlural": "{checked} av {total} varer",
+    "shareButton": "Del",
+    "shareCopiedButton": "Kopiert!",
+    "autoGeneratedHint": "Oprettet automatisk ut fra denne uges måltider",
+    "autoGeneratedHintDates": "Oprettet automatisk ut fra måltidene i uken {range}",
+    "shareHeading": "Innkjøpsliste",
+    "shareCompleteMessage": "Innkjøpslisten er ferdig!",
+    "withoutIngredients": {
+      "one": "{count} planlagt måltid har ingen ingredienser ennå: {names}",
+      "other": "{count} planlagte måltider har ingen ingredienser ennå: {names}"
+    },
+    "moreMeals": {
+      "one": "{count} til",
+      "other": "{count} til"
+    },
+    "empty": {
+      "title": "Ingen varer på listen",
+      "description": "Planlegg måltider med ingredienser for å se din innkjøpsliste."
+    }
+  },
+  "mealsSettings": {
+    "ariaLabel": "Innstillinger for måltider",
+    "title": "Innstillinger for måltider",
+    "cancelAriaLabel": "Annullér og luk",
+    "slots": {
+      "heading": "Måltider i planen",
+      "description": "Hvilke måltider planlegger du? Det endrer, hva skjermen og editoren viser.",
+      "toggleAriaLabelEnabled": "{label}, slått til",
+      "toggleAriaLabelDisabled": "{label}, slått fra"
+    },
+    "weekStart": {
+      "heading": "Uken starter",
+      "sunday": "søndag",
+      "monday": "mandag",
+      "hint": "Gjelder kun matplanen. Kalendere på veggen har deres egen innstilling for første dag."
+    },
+    "timeFormat": {
+      "heading": "Tidsformat",
+      "description": "Brukes alle steder, hvor måltider vises.",
+      "twelveHourLabel": "12-timer",
+      "twentyFourHourLabel": "24-timer",
+      "followLabel": "Som uret"
+    },
+    "defaultTimes": {
+      "heading": "Standard serveringstider",
+      "description": "Brukes, når et planlagt måltid ikke har sin egen tid. La feltet stå tomt for måltider, der varierer.",
+      "clear": "Ryd",
+      "clearAriaLabel": "Ryd standardtid for {name}",
+      "timeInputAriaLabel": "Standardtid for {name}"
+    },
+    "save": {
+      "saving": "Gemmer…",
+      "submit": "Lagre innstillinger",
+      "saveFailed": "Kunne ikke lagre. Prøv igjen.",
+      "networkError": "Nettverksfeil. Prøv igjen."
+    },
+    "planSource": {
+      "heading": "Deres matplan ligger i",
+      "homeScreens": "Home Screens",
+      "mealie": "Mealie",
+      "notConnectedNote": "Mealie er en separat opskrifts-app, som noen familier bruker. Hvis I gjør, så forbind den under Innstillinger på datamaskinen. Hvis ikke, er der ingenting å gjøre her.",
+      "connectedNote": "Mealie er tilkoblet til husstanden “{household}”. Velg det for å planlegge med de oppskrifter og den matplan, I har der.",
+      "connectedNoteNoName": "Mealie er tilkoblet. Velg det for å planlegge med de oppskrifter og den matplan, I har der.",
+      "onNote": "Med Mealie kommer måltidene fra Mealie, her og på veggen, og det, du planlegger her, lagres i Mealie. Din Home Screens-plan lagres og kommer tilbake, hvis du skifter tilbake.",
+      "switchingToMealieNote": "Når du har lagret, kommer måltidene fra Mealie her og på skjermen, og det, du planlegger her, lagres i Mealie. Din Home Screens-plan blir lagret og kommer tilbake, hvis du skifter tilbake.",
+      "switchingToHomeNote": "Når du har lagret, viser telefonen og skjermen igjen den Home Screens-plan, du hadde før. Ingenting endrer seg i Mealie."
+    }
+  },
+  "rewardForm": {
+    "titleAdd": "Legg til belønning",
+    "titleEdit": "Rediger belønning",
+    "saveButton": "Lagre belønning",
+    "deleteButton": "Slett belønning",
+    "iconLabel": "Ikon",
+    "nameLabel": "Navn",
+    "namePlaceholder": "f.eks. ekstra skjermtid",
+    "ticketCostLabel": "Pris i billetter",
+    "ticketCostPlaceholder": "10",
+    "enabledLabel": "Slått til",
+    "visible": "Synlig",
+    "hidden": "Skjult",
+    "descriptionLabel": "Beskrivelse (valgfri)",
+    "descriptionPlaceholder": "Kort beskrivelse …",
+    "availableToLabel": "Kan brukes av",
+    "everyone": "Alle",
+    "deleteConfirm": {
+      "title": "Slett belønning",
+      "description": "Slett \"{name}\"? Belønninger, der allerede er givet, blir i historikken.",
+      "goalClears": {
+        "one": "Det sparemål slettes.",
+        "other": "Deres sparemål slettes."
+      }
+    },
+    "saverOne": "{names} sparer opp til denne.",
+    "saverMany": "{names} sparer opp til denne.",
+    "hiddenWithSavers": {
+      "one": "{names} kan ikke se sitt sparemål, mens det her er skjult.",
+      "other": "{names} kan ikke se deres sparemål, mens det her er skjult."
+    }
+  },
+  "alertSender": {
+    "title": "Send beskjed",
+    "closeAriaLabel": "Luk afsendelse av beskjed",
+    "typeInfo": "Info",
+    "typeWarning": "Advarsel",
+    "typeUrgent": "Haster",
+    "titleLabel": "Tittel",
+    "titlePlaceholder": "Valgfri",
+    "messageLabel": "Beskjed",
+    "messagePlaceholder": "Hva skal skjermen vise?",
+    "durationLabel": "Varighed",
+    "duration10s": "10s",
+    "duration30s": "30s",
+    "duration1Min": "1 min",
+    "duration5Min": "5 min",
+    "durationPersistent": "Sticky",
+    "sendButton": "Send beskjed",
+    "sendingButton": "Sender…",
+    "sentButton": "Sendt!",
+    "failedButton": "Ble ikke sendt, prøv igjen",
+    "clearOnDisplay": "Ryd beskjeder på {name}",
+    "clearOnAll": "Ryd beskjeder på alle skjermer",
+    "clearingButton": "Rydder…",
+    "showingNow": "({count} vises nå)",
+    "clearOnUnnamed": "Ryd beskjeder på skjermen"
+  },
+  "rewardsView": {
+    "changedElsewhere": "En annen har endret belønningene. Din seneste endring ble ikke lagret. Prøv igjen.",
+    "nav": {
+      "redeem": "Indløs",
+      "rewards": "Rediger listen",
+      "balances": "Saldi",
+      "history": "Historik"
+    },
+    "ticketCountSingular": "{n} billet",
+    "ticketCountPlural": "{n} billetter",
+    "redeem": {
+      "balanceLabel": "tilgjengelige billetter",
+      "availableHeading": "Tilgjengelige belønninger",
+      "empty": "Der er ikke lagt til belønninger ennå",
+      "memberFallback": "dette medlem",
+      "confirmTitle": "Indløs {name}?",
+      "confirmDescriptionSingular": "Det koster {memberName} {cost} billet. Tilbake: {remaining}",
+      "confirmDescriptionPlural": "Det koster {memberName} {cost} billetter. Tilbake: {remaining}",
+      "confirmLabelSingular": "Indløs for {cost} billet",
+      "confirmLabelPlural": "Indløs for {cost} billetter",
+      "emptyKid": "Ingen belønninger ennå. En voksen kan legge til noen fra sin telefon.",
+      "balanceLabelNamed": {
+        "one": "billet til {name}",
+        "other": "billetter til {name}"
+      },
+      "switchHint": "Er du ikke {name}? Velg ditt navn under I dag.",
+      "refused": "Det gikk ikke gjennom. Der er ikke lenger billetter nok til det.",
+      "failed": "Det gikk ikke gjennom. Prøv igjen.",
+      "goalClears": "Det er det, {name} sparer opp til. Sparemålet slettes, når det er indløst.",
+      "goalFurther": "Bagefter mangler der {n} billetter til {goal}.",
+      "gotIt": "{name} fik {reward}.",
+      "gotItKid": "Du fik {reward}! Vis det til en voksen.",
+      "noTicketsHint": "Klar dine oppgaver under I dag for å tjene billetter.",
+      "alreadyGot": "{name} fik allerede {reward} for et øyeblikk siden.",
+      "alreadyGotKid": "Du fik allerede {reward} for et øyeblikk siden!",
+      "changed": "{name}s billetter har like endret seg. Kig igjen.",
+      "notOffered": "Den belønning finnes ikke lenger.",
+      "removed": "Den person er ikke lenger med i familien."
+    },
+    "manage": {
+      "heading": "Belønninger",
+      "countSingular": "{n} belønning",
+      "countPlural": "{n} belønninger",
+      "everyone": "Alle",
+      "disabled": "Slått fra",
+      "memberCountSingular": "{n} medlem",
+      "memberCountPlural": "{n} medlemmer",
+      "addButton": "Legg til belønning"
+    },
+    "balances": {
+      "heading": "Billetsaldi",
+      "adjustDownAriaLabel": "Trekk en billet fra {name}",
+      "adjustUpAriaLabel": "Giv {name} en billet"
+    },
+    "saveFailed": "Kunne ikke lagre. Prøv igjen.",
+    "goal": {
+      "heading": "Sparer opp til",
+      "pick": "Velg noe å spare opp til",
+      "progressSingular": "{have} av {cost} billetter · {n} mer",
+      "progressPlural": "{have} av {cost} billetter · {n} mer",
+      "reached": "Billetter nok! Tryk for å indløse.",
+      "change": "Skift",
+      "changeAriaLabel": "Sparer opp til {name}. Skift mål",
+      "savingChip": "Sparemål",
+      "sheetTitle": "Spar opp til…",
+      "sheetHint": "{name}s billetter teller til det her. Når {name} har fået det, så velg noe nyt.",
+      "sheetEmpty": "Ingen belønninger å spare opp til ennå.",
+      "stop": "Stop med å spare",
+      "failed": "Det ble ikke lagret. Prøv igjen.",
+      "headingFor": "{name} sparer opp til",
+      "pickFor": "Velg noe, {name} skal spare opp til",
+      "sheetTitleFor": "Et sparemål for {name}",
+      "stopFor": "Stop {name}s sparemål",
+      "redeemAriaLabel": "Nok sparet opp til {name}. Indløs",
+      "reachedFor": "{name} har nok. Tryk for å give den."
+    },
+    "adjust": {
+      "button": "Giv eller tag billetter…",
+      "title": "Giv eller tag billetter",
+      "hint": "Velg hvem, hvor mange, og seg hvorfor.",
+      "less": "En mindre",
+      "more": "En mer",
+      "ticketsLabel": {
+        "one": "billet",
+        "other": "billetter"
+      },
+      "eachLabel": {
+        "one": "billet hver",
+        "other": "billetter hver"
+      },
+      "reasonPlaceholder": "Hvorfor? (valgfritt)",
+      "reasonHint": "Vises i deres billethistorik.",
+      "pickSomeone": "Velg noen",
+      "failed": "Det ble ikke lagret. Prøv igjen.",
+      "chooseHowMany": "Velg hvor mange",
+      "manyPeople": "{count} personer",
+      "give": "Giv {names} {amount}",
+      "take": "Tag {amount} fra {names}",
+      "shortOne": "{name} har kun {n}, så det er alt, der ryger.",
+      "shortMany": "{names} har ikke så mange; de ryger ned på 0.",
+      "nothingToTake": "{names} har ingen billetter å tage",
+      "reasonTrimmed": "Kun de første {max} tegn er der plass til."
+    },
+    "tickets": {
+      "earned": "tjent",
+      "spent": "brukt",
+      "adjusted": "fra voksne",
+      "window": "Seneste 30 dager",
+      "empty": "Ingen billetter har flyttet seg ennå.",
+      "failed": "Billethistorikken kunne ikke hentes.",
+      "removedChore": "En oppgave, der er fjernet",
+      "tookOne": "En voksen tog noen",
+      "gaveSome": "En voksen gav noen",
+      "rewardLine": "Belønning",
+      "bonusLine": "Bonus",
+      "grownUpLine": "Voksen",
+      "bucket": {
+        "today": "I dag",
+        "yesterday": "I går",
+        "thisWeek": "Denne uke",
+        "earlier": "Tidligere"
+      },
+      "gaveAdmin": "Givet av en voksen",
+      "tookAdmin": "Taget av en voksen"
+    }
+  },
+  "settingsSheet": {
+    "title": "Innstillinger",
+    "closeAriaLabel": "Luk innstillinger",
+    "system": {
+      "heading": "System",
+      "errorFailedToLoad": "Lasting feilede",
+      "hostLabel": "Enhetsnavn",
+      "uptimeLabel": "Oppetid",
+      "memoryLabel": "Hukommelse",
+      "diskLabel": "Harddisk"
+    },
+    "theme": {
+      "heading": "Tema",
+      "light": "Lys",
+      "dark": "Mørk",
+      "system": "System"
+    },
+    "data": {
+      "heading": "Data",
+      "backup": {
+        "label": "Backup alt data",
+        "savedLabel": "Backup lagret",
+        "busyLabel": "Henter…",
+        "description": "Hent familiens oppgaver, måltider, belønninger og bilder"
+      },
+      "restore": {
+        "label": "Gjenopprett backup",
+        "confirmingLabel": "Bekreft for å gendanne",
+        "busyLabel": "Gendanner…",
+        "doneLabel": "Gendannet",
+        "invalidFileLabel": "Ugyldig backupfil",
+        "failedLabel": "Gendannelse feilede",
+        "idleDescription": "Upload en backupfil fra denne enhet",
+        "confirmingDescription": "Dette vil overskrive alle eksisterende data",
+        "doneWithoutKeysLabel": "Gendannet, uten nøkler",
+        "doneWithoutKeysDescription": "Dine nøkler og konti er uendrede. Legg til dem igjen i editoren."
+      }
+    },
+    "power": {
+      "heading": "Genstart",
+      "restartService": {
+        "label": "Genstart Home Screens",
+        "description": "Løser de fleste hikke. Ingenting av det, du har sat opp, går tabt.",
+        "confirmTitle": "Genstart Home Screens?",
+        "confirmBody": "Skjermene blir sorte et øyeblikk, og denne fjernkontroll forbinder igjen om cirka 20 sekunder.",
+        "confirmButton": "Genstart"
+      },
+      "reboot": {
+        "label": "Genstart enhet",
+        "description": "Genstart av hele systemet",
+        "confirmTitle": "Genstart enheten?",
+        "confirmBody": "Alt stopper, mens den starter på nytt. Denne fjernkontroll forbinder igjen om cirka et minut.",
+        "confirmButton": "Genstart enheten"
+      },
+      "restartNeeded": {
+        "title": "Genstart for å avslutte oppdateringen",
+        "description": "En del av den seneste oppdatering virker først, når enheten er genstartet.",
+        "button": "Genstart nå"
+      }
+    },
+    "family": {
+      "description": "Administrer personene i din husstand."
+    }
+  },
+  "photosTab": {
+    "header": "Bilder",
+    "select": "Velg",
+    "selectedCount": {
+      "one": "{count} valgt",
+      "other": "{count} valgt"
+    },
+    "selectAll": "Velg alle",
+    "selectNone": "Fravelg alle",
+    "foldersLabel": "Mapper",
+    "mainFolderTab": "Hovedmappe",
+    "onWall": "På veggen",
+    "newFolder": "Ny mappe",
+    "showingOn": "Vises på {walls}",
+    "notOnWall": "Ikke på veggen",
+    "notOnWallHint": "{contents}. Vil du vise mappen, så velg den til et billedshow på en datamaskin.",
+    "notOnWallShort": "Ikke på veggen · {contents}",
+    "unnamedWall": "Skjerm uten navn",
+    "unnamedScreen": "uten navn",
+    "empty": "Tom",
+    "what": {
+      "photos": {
+        "one": "1 bilde",
+        "other": "{count} bilder"
+      },
+      "videos": {
+        "one": "1 video",
+        "other": "{count} videoer"
+      },
+      "mixed": {
+        "one": "1 bilde eller video",
+        "other": "{count} bilder og videoer"
+      }
+    },
+    "photosAndVideos": "{photos} og {videos}",
+    "photoLabel": "Bilde {n}",
+    "videoLabel": "Video {n}",
+    "addButton": "Legg til bilder og videoer",
+    "addFromGoogle": "Google Fotos",
+    "addFromICloud": "iCloud-link",
+    "space": "Bilder og videoer fylder {size}. Der er {free} ledig plass på hubben.",
+    "spaceNoFree": "Bilder og videoer fylder {size}.",
+    "spaceLow": "Hubben er nesten full: kun {free} tilbake. Slett bilder, du ikke har bruk for, så der blir plass.",
+    "emptyTitle": "Der er ikke noe i {folder} ennå",
+    "emptyHint": "Legg til bilder eller videoer fra denne telefon.",
+    "loadFailed": "Dine bilder kunne ikke hentes.",
+    "tryAgain": "Prøv igjen",
+    "showsOn": {
+      "one": "Det blir vist på {walls}.",
+      "other": "De blir vist på {walls}."
+    },
+    "folderNotOnWall": "Mappen er ikke på veggen ennå.",
+    "slideshowPhotosOnly": "Billedshowet for {folder} viser kun bilder.",
+    "slideshowVideosOnly": "Billedshowet for {folder} viser kun videoer.",
+    "upload": {
+      "progress": "Tilføjer {current} av {total}",
+      "left": "{size} tilbake",
+      "shrinking": "Store bilder blir gjort mindre først, så de sendes hurtigere.",
+      "added": {
+        "one": "1 lagt til.",
+        "other": "{count} lagt til."
+      },
+      "failedHeading": {
+        "one": "1 kunne ikke tilføjes",
+        "other": "{count} kunne ikke tilføjes"
+      },
+      "tooBig": "{name} er større end {size}.",
+      "notMedia": "{name} er ikke et bilde eller en video, som veggen kan vise.",
+      "wontPlay": "{name} er en slags video, som veggen ikke kan afspille. På en iPhone skal du velge Mest kompatibel under Innstillinger > Kamera > Formater.",
+      "failed": "{name} kunne ikke sendes. Prøv igjen.",
+      "close": "Luk",
+      "showNow": "Vis på veggen nå"
+    },
+    "showOnWall": "Vis på veggen",
+    "show": {
+      "sent": "Vises på {where} i et minut.",
+      "everyWall": "alle veggene",
+      "theWall": "veggen",
+      "failed": "Kunne ikke nå veggen. Prøv igjen.",
+      "gonePhoto": "Det bilde er her ikke lenger.",
+      "goneVideo": "Den video er her ikke lenger."
+    },
+    "viewer": {
+      "label": "Bilde",
+      "count": "{n} av {total}",
+      "added": "Lagt til {date}",
+      "videoDetails": "Video · {size}",
+      "alone": {
+        "screen": "Bakgrunn på skjermen {screen}",
+        "dayRule": "Brukes av en dagsregel på skjermen {screen}",
+        "module": "Vises for seg selv på skjermen {screen}",
+        "other": "Brukes i innstillingene"
+      },
+      "aloneNote": {
+        "screen": "Det kan ikke slettes, så lenge det brukes som bakgrunn. Skift bakgrunnern på en datamaskin først.",
+        "dayRule": "Det kan ikke slettes, så lenge en dagsregel bruker det. Ret reglen på en datamaskin først.",
+        "module": "Det kan ikke slettes, så lenge en skjerm viser det. Ret den skjerm på en datamaskin først.",
+        "other": "Det kan ikke slettes, så lenge noe bruker det. Ret innstillingen på en datamaskin først."
+      },
+      "onlyPhoto": "Dette er det eneste bilde i billedshowet på {walls}. Legg til et til, før du sletter eller flytter det.",
+      "onlyVideo": "Dette er den eneste video i billedshowet på {walls}. Legg til en til, før du sletter eller flytter den.",
+      "onlyPhotoAnywhere": "Dette er det eneste bilde, et billedshow har tilbake. Legg til et til, før du sletter eller flytter det.",
+      "onlyVideoAnywhere": "Dette er den eneste video, et billedshow har tilbake. Legg til en til, før du sletter eller flytter den."
+    },
+    "move": "Flyt",
+    "moveSheet": {
+      "title": "Flyt {what} til",
+      "here": "Du er her",
+      "newFolder": "Ny mappe"
+    },
+    "movedTo": {
+      "one": "Flyttet til {folder}.",
+      "other": "{count} flyttet til {folder}."
+    },
+    "moveClash": "Der ligger allerede en fil med samme navn i den mappe.",
+    "moveFailed": "Flytningen lykkedes ikke. Prøv igjen.",
+    "deletePhotoTitle": "Slett dette bilde?",
+    "deleteVideoTitle": "Slett denne video?",
+    "deleteManyTitle": "Slett {what}?",
+    "deleteManyButton": "Slett {what}",
+    "deletePhotoOnWall": "Det forsvinder for alltid fra fotobiblioteket og fra billedshowet på {walls}.",
+    "deleteVideoOnWall": "Den forsvinder for alltid fra fotobiblioteket og fra billedshowet på {walls}.",
+    "deletePhotoOffWall": "Det forsvinder for alltid fra fotobiblioteket.",
+    "deleteVideoOffWall": "Den forsvinder for alltid fra fotobiblioteket.",
+    "deleteManyOnWall": "De forsvinder for alltid fra fotobiblioteket og fra billedshowet på {walls}.",
+    "deleteManyOffWall": "De forsvinder for alltid fra fotobiblioteket.",
+    "photoDeleted": "Bilde ble slettet",
+    "videoDeleted": "Video ble slettet",
+    "deleteFailed": "Det kunne ikke slettes. Prøv igjen.",
+    "deleteRefused": "Veggen har fortsatt bruk for det, så det ble ikke slettet.",
+    "deleted": {
+      "one": "1 slettet.",
+      "other": "{count} slettet."
+    },
+    "keptLast": {
+      "one": "1 ble tilbake, så billedshowet på {walls} ikke står tomt.",
+      "other": "{count} ble tilbake, så ingenting billedshow står tomt."
+    },
+    "keptLastAnywhere": {
+      "one": "1 ble tilbake, så et billedshow ikke står tomt.",
+      "other": "{count} ble tilbake, så ingenting billedshow står tomt."
+    },
+    "keptAlone": {
+      "one": "1 brukes på en skjerm og ble tilbake.",
+      "other": "{count} brukes på en skjerm og ble tilbake."
+    },
+    "staysLast": {
+      "one": "1 blir tilbake, så billedshowet på {walls} ikke står tomt.",
+      "other": "{count} blir tilbake, så ingenting billedshow står tomt."
+    },
+    "staysLastAnywhere": {
+      "one": "1 blir tilbake, så et billedshow ikke står tomt.",
+      "other": "{count} blir tilbake, så ingenting billedshow står tomt."
+    },
+    "staysAlone": {
+      "one": "1 brukes på en skjerm og blir tilbake.",
+      "other": "{count} brukes på en skjerm og blir tilbake."
+    },
+    "deleteFailedCount": {
+      "one": "1 kunne ikke slettes. Prøv igjen.",
+      "other": "{count} kunne ikke slettes. Prøv igjen."
+    },
+    "folderMenu": {
+      "label": "Muligheter for mappen",
+      "rename": "Omdøb",
+      "newInside": "Ny mappe i {folder}",
+      "delete": "Slett mappe",
+      "hasFiles": "Flyt eller slett mappens {what} først.",
+      "hasFolders": "Slett mappene i den først.",
+      "onWall": "Denne mappe vises på {walls}. Velg først en annen mappe til billedshowet på en datamaskin."
+    },
+    "nameSheet": {
+      "newTitle": "Ny mappe",
+      "renameTitle": "Omdøb {folder}",
+      "newName": "Nyt navn",
+      "create": "Opret",
+      "startsOffWall": "Den kommer ikke på veggen, før et billedshow bruker den.",
+      "wallFollows": "Den vises fortsatt på {walls}, nå med det nye navn."
+    },
+    "savedAsHint": "Lagres som {name}",
+    "folderCreated": "Mappe ble oprettet",
+    "failedCreateFolder": "Mappen kunne ikke oprettes. Prøv igjen.",
+    "renamed": "Omdøbt til {name}",
+    "renameFailed": "Mappen kunne ikke omdøbes. Prøv igjen.",
+    "folderExists": "Der er allerede en mappe med det navn her.",
+    "deleteFolderTitle": "Slett mappen {folder}?",
+    "deleteFolderBody": "Den er tom, så der endrer seg ikke noe på veggen.",
+    "deleteFolderButton": "Slett mappe",
+    "folderDeleted": "Mappe ble slettet",
+    "deleteFolderFailed": "Mappen kunne ikke slettes. Prøv igjen.",
+    "folderNotEmpty": "Der er fortsatt noe i den mappe. Flyt eller slett det først.",
+    "imports": {
+      "googleTitle": "Legg til fra Google Fotos",
+      "googleIntro": "Velg bilder i Google Fotos, og kom så tilbake hertil. De blir lagt i {folder}.",
+      "googleOpen": "Åpne Google Fotos",
+      "googlePreparing": "Gjør Google Fotos klar...",
+      "googleWaiting": "Venter på dine valg...",
+      "googleExpired": "Google Fotos holdt opp med å vente. Prøv igjen.",
+      "googleFailed": "Kunne ikke nå Google Fotos. Prøv igjen.",
+      "icloudTitle": "Legg til fra et iCloud-link",
+      "icloudIntro": "Lim inn et link til et delt album eller et link, du har laget med Kopier iCloud-link i appen Fotos. Alt i lenken blir lagt i {folder}.",
+      "icloudPlaceholder": "Lim inn lenken her",
+      "icloudAdd": "Legg til",
+      "icloudErrors": {
+        "invalid": "Det ligner ikke et link til bilder i iCloud.",
+        "expired": "Det link er udløbet. Lav et nyt i appen Fotos.",
+        "gone": "Det album deles ikke lenger. Del det igjen i appen Fotos, og lim inn det nye link.",
+        "busy": "Der blir fortsatt lagt til bilder. Prøv igjen om et minut.",
+        "tooMany": "Det er for mange på én gang. Del færre, og prøv igjen.",
+        "lost": "Hubben genstartede undervejs. Prøv igjen.",
+        "unreachable": "Kunne ikke nå iCloud. Prøv igjen."
+      },
+      "progress": "Tilføjer {done} av {total}",
+      "nothingPicked": "Det ble ikke valgt noe.",
+      "busy": "Der blir fortsatt lagt til bilder. Prøv igjen om et minut.",
+      "tooMany": "Det er for mange på én gang. Velg færre, og prøv igjen.",
+      "lost": "Hubben genstartede undervejs. Prøv igjen.",
+      "tryAgain": "Prøv igjen",
+      "alreadyHere": {
+        "one": "1 var her allerede.",
+        "other": "{count} var her allerede."
+      },
+      "couldNotAdd": {
+        "one": "1 kunne ikke tilføjes.",
+        "other": "{count} kunne ikke tilføjes."
+      },
+      "nothingFound": "Der er ingenting å legge til fra det album."
+    }
+  },
+  "slideshowControls": {
+    "title": "Billedshow",
+    "back": "Forrige bilde",
+    "next": "Neste bilde",
+    "pause": "Sett billedshowet på pause",
+    "play": "Afspil billedshowet"
+  },
+  "choresKidView": {
+    "notConfigured": "Ingen oppgaver ennå. Bed en voksen om å legge til et oppgaveskjema til skjermen.",
+    "grownUpsLink": "Voksne: åpne familiefjernbetjeningen"
+  },
+  "timers": {
+    "title": "Timere",
+    "quickTimer": "Hurtig timer",
+    "quickName": "{minutes} minutters timer",
+    "start": "Start",
+    "sound": "Lyd",
+    "routines": "Rutiner",
+    "newRoutine": "Ny rutine",
+    "editRoutine": "Rediger rutine",
+    "emptyHint": "En rutine er en timer med trin, som en morgenrutine: tag tøj på, puss tennene, red din seng. Lav en og start den på skjermen.",
+    "routineMeta": {
+      "one": "{steps} trin · {minutes} min.",
+      "other": "{steps} trin · {minutes} min."
+    },
+    "stepCount": "Trin {current} av {total}",
+    "pause": "Pause",
+    "resume": "Fortsett",
+    "skip": "Spring over",
+    "stop": "Stop",
+    "addMinute": "+1 min.",
+    "done": "Ferdig!",
+    "save": "Lagre",
+    "deleteRoutine": "Slett",
+    "reallyDelete": "Vil du slette den?",
+    "routineName": "Navn",
+    "routineNamePlaceholder": "Morgenrutine",
+    "routineIcon": "Ikon",
+    "viewLabel": "Timerens utseende",
+    "viewRing": "Lysende ring",
+    "viewFace": "Urskive",
+    "viewCascade": "Fargefald",
+    "viewPath": "Stjernesti",
+    "steps": "Trin",
+    "stepIcon": "Trin-ikon",
+    "stepNamePlaceholder": "Hva skal der gjøres",
+    "stepMinutes": "Minutter",
+    "waitForTap": "Vent på et tryk på Ferdig",
+    "moveUp": "Flyt opp",
+    "moveDown": "Flyt ned",
+    "removeStep": "Fjern trin",
+    "addStep": "Legg til trin",
+    "minutesShort": "{minutes} min.",
+    "loadError": "Rutinene kunne ikke lastes. Sjekk forbindelsen og prøv igjen.",
+    "retry": "Prøv igjen",
+    "onAllDisplays": "På alle skjermer",
+    "onDisplay": "På {name}",
+    "showOn": "Send til",
+    "allDisplays": "Alle skjermer",
+    "showOnNext": "Neste timer på",
+    "onDisplays": "På {count} skjermer",
+    "replaceTitle": "Start en ny timer?",
+    "replaceBody": "Der kjører allerede en timer. En ny timer stopper den.",
+    "soundOn": "Lyd til",
+    "soundOff": "Lyd fra",
+    "minUnit": "min.",
+    "secUnit": "sek.",
+    "stepSeconds": "Sekunder",
+    "quickNameSeconds": "{seconds} sekunders timer",
+    "quickNameClock": "{time}-timer",
+    "secondsShort": "{seconds} sek.",
+    "showingOn": "Vises på {names}",
+    "showingOnDisplay": "Vises på skjermen",
+    "waitingForDisplay": "Venter på, at en skjerm tager den…",
+    "notShowing": "Ingen skjerm viser den ennå. Sjekk, at en skjerm er påslått.",
+    "failed": "Noe gikk galt. Prøv igjen.",
+    "whyNoSave": {
+      "name": "Giv rutinen et navn for å lagre.",
+      "stepName": "Giv hvert trin et navn for å lagre.",
+      "stepLength": "Hvert trin skal vare minst {seconds} sekunder."
+    },
+    "quickTooShort": "En timer skal vare minst {seconds} sekunder.",
+    "stepLimit": "En rutine kan ha opp til {count} trin."
+  },
+  "lists": {
+    "title": "Lister",
+    "chipsLabel": "Dine lister",
+    "settingsButton": "Listeinnstillinger",
+    "summary": {
+      "progress": "{done} av {total} gjort",
+      "empty": "Ingenting ennå"
+    },
+    "doneGroup": "Gjort ({count})",
+    "due": {
+      "today": "I dag",
+      "tomorrow": "I morgen",
+      "overdue": "Forsinket"
+    },
+    "item": {
+      "edit": "Rediger {text}",
+      "move": "Flyt {text}"
+    },
+    "addBar": {
+      "placeholder": "Legg til til {list}",
+      "submit": "Legg til"
+    },
+    "empty": {
+      "title": "Der er ikke noe på listen ennå",
+      "body": "Skriv det første nedenfor. Alt, du tilføjer, dukker opp på veggen få sekunder etter."
+    },
+    "allDone": {
+      "title": "Alt er gjort",
+      "daily": "Starter forfra hver dag",
+      "weekly": "Starter forfra hver {day}"
+    },
+    "firstList": {
+      "title": "Lav din første liste",
+      "placeholder": "Navn på din første liste",
+      "body": "Innkjøp, en pakkeliste, ting før skole. Når du har laget den, åpner du Home Screens på en datamaskin og velger den til huskelisten på veggen."
+    },
+    "newList": {
+      "title": "Ny liste",
+      "placeholder": "Listens navn",
+      "submit": "Lav liste"
+    },
+    "colourSwatch": "Farge {number}",
+    "itemSheet": {
+      "title": "Rediger punkt",
+      "textLabel": "Punkt",
+      "dueLabel": "Frist",
+      "dueNone": "Ingen",
+      "duePick": "Velg en dag",
+      "dayLabel": "Dag",
+      "whoLabel": "Til hvem",
+      "whoAdd": "Legg til noen",
+      "save": "Lagre",
+      "delete": "Slett punkt"
+    },
+    "listSheet": {
+      "nameLabel": "Listens navn",
+      "colourLabel": "Farge",
+      "repeatLabel": "Start forfra",
+      "repeatNever": "Aldri",
+      "repeatDaily": "Hver dag",
+      "repeatWeekly": "Hver uke",
+      "repeatDayLabel": "Hvilken dag",
+      "repeatHelp": "Fjerner alle flueben etter en plan. Godt til en pakkeliste eller en liste før skole; la den være slått fra til innkjøp.",
+      "tidyLabel": "Ryd opp",
+      "uncheckAll": "Fjern alle flueben",
+      "removeDone": "Fjern ferdige punkter",
+      "save": "Lagre",
+      "delete": "Slett liste",
+      "confirmDelete": {
+        "title": "Slett {name}?",
+        "description": "Alt på listen forsvinder med den. Det kan ikke angres."
+      }
+    },
+    "share": {
+      "button": "Del",
+      "copied": "Kopiert!",
+      "nothingOpen": "Alt er gjort!"
+    },
+    "errors": {
+      "generic": "Noe gikk galt. Prøv igjen."
+    },
+    "loadError": "Dine lister kunne ikke hentes. Sjekk, at hubben er påslått, og prøv igjen.",
+    "retry": "Prøv igjen"
+  },
+  "formOverlay": {
+    "discard": {
+      "title": "Vil du kassere endringene?",
+      "description": "Dine endringer er ikke lagret ennå.",
+      "confirmLabel": "Kassér",
+      "keepEditing": "Bliv ved med å redigere"
+    }
+  },
+  "feedback": {
+    "alertSent": "Beskjed sendt til {name}",
+    "alertSentAll": "Beskjed sendt til alle skjermer",
+    "alertsCleared": "Beskjeder ryddet på {name}",
+    "alertsClearedAll": "Beskjeder ryddet på alle skjermer",
+    "noConfirm": "{name} svarede ikke. Den er måske slukket eller offline.",
+    "profileSwitched": "{name} skiftede til {profile}",
+    "profileCleared": "{name} viser alle sider",
+    "profileAfterSchedule": "{name} skifter til {profile}, når {scheduled} er slut",
+    "profileClearedAfterSchedule": "{name} viser alle sider, når {scheduled} er slut",
+    "profileKeptAfterSchedule": "{name} blir ved med å vise {profile}, når planen er slut",
+    "profileFailed": "Kunne ikke skifte profil på {name}",
+    "hubBack": "Home Screens er tilbake",
+    "alertSentUnnamed": "Beskjed sendt til skjermen",
+    "alertsClearedUnnamed": "Beskjeder ryddet på skjermen"
+  },
+  "tabNotSetUp": {
+    "chores": {
+      "title": "Der er ikke noe oppgaveskjema ennå",
+      "body": "Oppgaver dukker opp her, så snart der er et oppgaveskjema på en av dine skjermer."
+    },
+    "lists": {
+      "title": "Ingen liste ennå",
+      "body": "Lister dukker opp her, når en huskeliste vises på en av dine skjermer."
+    },
+    "meals": {
+      "title": "Der er ikke noen matplan ennå",
+      "body": "Måltider dukker opp her, så snart der er en matplanlegger på en av dine skjermer."
+    },
+    "photos": {
+      "title": "Der er ikke noe billedshow ennå",
+      "body": "Bilder dukker opp her, så snart der er et billedshow på en av dine skjermer."
+    },
+    "howTo": "Legg til det fra en datamaskin: åpne {url}, og legg det på en skjerm.",
+    "notes": {
+      "title": "Der er ikke noen opslagstavle ennå",
+      "body": "Noter dukker opp her, så snart der er en opslagstavle på en av dine skjermer."
+    },
+    "dayNotes": {
+      "title": "Ingen kalender viser dagsnoter ennå",
+      "body": "Dagsnoter vises i en kalender. Sett en kalender på en av dine skjermer, eller slå Dagsnoter til i kalenderens innstillinger."
+    }
+  },
+  "choreSettings": {
+    "title": "Innstillinger for oppgaver",
+    "grabbingHeading": "Når bonusoppgaver snuppes",
+    "letGoHint": "En voksen kan alltid give en snuppet oppgave fri: tryk på ••• ut for oppgaven på fanen I dag.",
+    "save": "Lagre",
+    "saveFailed": "Kunne ikke lagre. Prøv igjen.",
+    "changeAriaLabel": "Skift, hvordan bonusoppgaver snuppes"
+  },
+  "atHome": {
+    "pill": "Derhjemme er det {day}, {time}"
+  },
+  "notes": {
+    "title": "Noter",
+    "pages": {
+      "board": "Opslagstavle",
+      "calendar": "Kalender"
+    },
+    "boardToCalendar": "Noe til en bestemt dag? Sett det i kalenderen",
+    "onWall": {
+      "zero": "Ingenting på veggen",
+      "one": "{count} på veggen",
+      "other": "{count} på veggen"
+    },
+    "writeNote": "Skriv en note",
+    "post": "Sett den opp på veggen",
+    "newNote": "Ny note",
+    "editNote": "Rediger note",
+    "noteLabel": "Din note",
+    "counter": "{used} / {max}",
+    "fromLabel": "Fra",
+    "nobody": "Ingen",
+    "someone": "Noen",
+    "lifeLabel": "Hvor lenge",
+    "life": {
+      "12h": "12 timer",
+      "1d": "1 dag",
+      "3d": "3 dager",
+      "7d": "1 uke",
+      "keep": "Altid"
+    },
+    "lifeHelp": "Tiden telles fra, da noten ble sat opp. Velg igjen for å starte forfra nå.",
+    "pin": "Fastgør øverst",
+    "pinned": "Festet",
+    "important": "Vigtig",
+    "save": "Lagre",
+    "takeDown": "Tag den ned nå",
+    "gone": "Taget ned ({count})",
+    "goneIn": "Vekk om {time}",
+    "postAgain": "Sett opp igjen",
+    "delete": "Slett",
+    "deleteConfirm": "Slett denne note for alltid?",
+    "keeps": "Blir hengende",
+    "timeLeft": {
+      "minute": {
+        "one": "{count} min. tilbake",
+        "other": "{count} min. tilbake"
+      },
+      "hour": {
+        "one": "{count} t. tilbake",
+        "other": "{count} t. tilbake"
+      },
+      "day": {
+        "one": "{count} dag tilbake",
+        "other": "{count} dager tilbake"
+      }
+    },
+    "justNow": "Like nå",
+    "empty": {
+      "title": "Der er ikke noe på opslagstavlen ennå",
+      "body": "Skriv en note nedenfor, så dukker den opp på veggen få sekunder etter. Noter forsvinder av seg selv, når den tid, du har valgt, er gået."
+    },
+    "loadError": "Notatene kunne ikke hentes.",
+    "retry": "Prøv igjen",
+    "saveError": "Det ble ikke lagret. Prøv igjen.",
+    "editAria": "Rediger note fra {name}",
+    "dayNotes": {
+      "sub": "Dagsnoter vises i kalenderne på veggen",
+      "nextDays": "De neste 7 dager",
+      "addForDay": "Legg til en note til denne dag",
+      "addAnother": "Legg til en note mer",
+      "addAria": "Legg til en note til {day}",
+      "editAria": "Ret noten for {day}",
+      "sheetHint": "Vises på denne dag i kalenderne på veggen.",
+      "placeholder": "Skolefoto, skolefri…",
+      "put": "Sett den i kalenderen",
+      "remove": "Fjern",
+      "loadError": "Dagsnotatene kunne ikke hentes.",
+      "saveError": "Det ble ikke lagret. Prøv igjen.",
+      "saved": "Lagret til {day}. Noten vises på veggen, når en kalender viser den dag.",
+      "removed": "Noten er fjernet",
+      "undo": "Fortryd",
+      "atLimit": "Lenger kan en dagsnote ikke være."
+    }
+  },
+  "mealSheet": {
+    "ariaLabel": "{slot}, {date}",
+    "savesToMealie": "Lagres i Mealie",
+    "done": "Ferdig",
+    "mainDish": "Hovedret",
+    "change": "Skift",
+    "changeAriaLabel": "Skift {meal}",
+    "chooseMain": "Velg en hovedret",
+    "withThisMeal": "Til dette måltid",
+    "swapAriaLabel": "Skift {meal} ({kind})",
+    "moveUp": "Flyt {meal} opp",
+    "moveDown": "Flyt {meal} ned",
+    "remove": "Fjern {meal}",
+    "add": {
+      "side": "Legg til tilbehør",
+      "dessert": "Legg til dessert",
+      "drink": "Legg til drikke",
+      "main": "Legg til en hovedret mer"
+    },
+    "servingTime": "Serveringstid",
+    "usualTime": "Normalt kl. {time}",
+    "timeThisMeal": "Kun til dette måltid",
+    "timePick": "Velg et tidspunkt til dette måltid",
+    "timeKeptHere": "Home Screens husker denne tid. Mealie har ingen tid, så den vises ikke der.",
+    "clear": {
+      "breakfast": "Fjern denne frokost",
+      "lunch": "Fjern denne lunsj",
+      "snack": "Fjern dette mellommåltid",
+      "dinner": "Fjern denne middag"
+    },
+    "clearConfirm": {
+      "title": {
+        "breakfast": "Fjern frokosten {day}?",
+        "lunch": "Fjern lunsjen {day}?",
+        "snack": "Fjern mellommåltidet {day}?",
+        "dinner": "Fjern middagen {day}?"
+      },
+      "confirm": {
+        "breakfast": "Fjern frokost",
+        "lunch": "Fjern lunsj",
+        "snack": "Fjern mellommåltid",
+        "dinner": "Fjern middag"
+      },
+      "description": {
+        "one": "Det fjerner {dish} fra planen sammen med den ret, der hører til.",
+        "other": "Det fjerner {dish} fra planen sammen med de {count} retter, der hører til."
+      },
+      "descriptionMealie": {
+        "one": "Det fjerner {dish} fra planen, også i Mealie, sammen med den ret, der hører til.",
+        "other": "Det fjerner {dish} fra planen, også i Mealie, sammen med de {count} retter, der hører til."
+      }
+    },
+    "timeAndOrderKeptHere": "Home Screens husker dette tidspunkt og rekkefølgen av rettene. Mealie har ikke plass til noen av dem, så de vises ikke der."
+  },
+  "mealPicker": {
+    "cancel": "Annullér",
+    "swap": {
+      "side": "Skift tilbehøret",
+      "dessert": "Skift desserten",
+      "drink": "Skift drikken",
+      "main": "Skift den annen hovedret"
+    },
+    "savedAs": {
+      "side": "Tilbehør",
+      "dessert": "Desserter",
+      "drink": "Drikke",
+      "main": "Hovedretter"
+    },
+    "everythingElse": "Alt det annet",
+    "typePlaceholder": {
+      "side": "Finn tilbehør, eller skriv det",
+      "dessert": "Finn en dessert, eller skriv en",
+      "drink": "Finn en drik, eller skriv en",
+      "main": "Finn et måltid, eller skriv et"
+    },
+    "typeInstead": "Skriv “{query}” i stedet",
+    "typeInsteadNote": "Kommer på planen, som det er skrevet, uten å bli lagret blandt dine måltider.",
+    "noneTitle": "Ingen måltider passer til “{query}”",
+    "noneDescription": "Sjekk stavningen, eller skriv det nedenfor."
+  },
+  "mealie": {
+    "pill": {
+      "label": "Fra Mealie",
+      "updated": "· Sidst oppdatert {time}"
+    },
+    "openMealie": "Åpne Mealie",
+    "unreachable": {
+      "title": "Kan ikke nå Mealie like nå",
+      "description": "Deres måltider ligger i Mealie, og Home Screens kan ikke nå dem. Sjekk, at Mealie kjører, og prøv igjen."
+    },
+    "notConnected": {
+      "title": "Mealie er ikke tilkoblet",
+      "description": "Madplanen skal komme fra Mealie, men Mealies adresse eller token er ikke lagret. Legg til dem på datamaskinen under Innstillinger > API-nøkler, eller sett matplanen tilbake til Home Screens i måltidsinnstillingene."
+    },
+    "tokenRefused": {
+      "title": "Mealie lukker ikke Home Screens inn lenger",
+      "description": "Mealie tager ikke lenger mot det lagret token. Det er måske slettet i Mealie. Lav et nyt der, og lagre det på datamaskinen under Innstillinger > API-nøkler."
+    },
+    "setup": {
+      "title": "Home Screens kan ikke bruke denne Mealie",
+      "description": "Sjekk Mealies adresse på datamaskinen under Innstillinger > API-nøkler. Hvis den er riktig, skal Mealie måske oppdateres."
+    },
+    "connection": {
+      "title": "Kan ikke nå Home Screens like nå",
+      "description": "Sjekk, at telefonen er tilkoblet, og prøv igjen."
+    },
+    "paused": {
+      "description": "Planleggingen er sat på pause, til Mealie er tilbake.",
+      "descriptionWithTime": "Planleggingen er sat på pause, til Mealie er tilbake. Dette er matplanen fra {time}.",
+      "tokenDescription": "Lav et nyt token i Mealie, og lagre det på datamaskinen under Innstillinger > API-nøkler. Til da er planleggingen sat på pause.",
+      "tokenDescriptionWithTime": "Lav et nyt token i Mealie, og lagre det på datamaskinen under Innstillinger > API-nøkler. Til da er planleggingen sat på pause. Dette er matplanen fra {time}.",
+      "setupDescription": "Sjekk Mealies adresse på datamaskinen under Innstillinger > API-nøkler. Hvis den er riktig, skal Mealie måske oppdateres. Til da er planleggingen sat på pause.",
+      "setupDescriptionWithTime": "Sjekk Mealies adresse på datamaskinen under Innstillinger > API-nøkler. Hvis den er riktig, skal Mealie måske oppdateres. Til da er planleggingen sat på pause. Dette er matplanen fra {time}."
+    },
+    "saveFailed": {
+      "token": "Mealie lukker ikke Home Screens inn, så det ble ikke lagret.",
+      "setup": "Home Screens kan ikke bruke denne Mealie, så det ble ikke lagret.",
+      "notConnected": "Mealie er ikke tilkoblet, så det ble ikke lagret.",
+      "unreachable": "Mealie svarer ikke, så det ble ikke lagret. Prøv igjen om lidt."
+    },
+    "search": {
+      "placeholder": "Søk i oppskrifter i Mealie",
+      "placeholderCount": {
+        "one": "Søk i 1 oppskrift i Mealie",
+        "other": "Søk i {count} oppskrifter i Mealie"
+      },
+      "ariaLabel": "Søk i oppskrifter i Mealie",
+      "clear": "Ryd søgningen",
+      "favorites": "Favoritter",
+      "recent": "Laget for nylig",
+      "looking": "Leder i Mealie…",
+      "recipeCount": {
+        "one": "1 oppskrift",
+        "other": "{count} oppskrifter"
+      },
+      "favoritesCount": {
+        "one": "1 favorit",
+        "other": "{count} favoritter, A til Å"
+      },
+      "recentHeading": "Senest laget først",
+      "noneTitle": "Ingen oppskrifter, der heter “{query}”, i Mealie",
+      "noneDescription": "Sjekk stavningen, eller skriv det inn i stedet. Så kommer det på matplanen som en note uten oppskrift.",
+      "noFavoritesTitle": "Ingen favoritter ennå",
+      "noFavoritesDescription": "Tryk på hjertet ved en oppskrift i Mealie, så dukker den opp her.",
+      "noRecentTitle": "Ingenting laget ennå",
+      "noRecentDescription": "Oppskrifter, I markerer som laget i Mealie, vises her, nyeste først.",
+      "errorDescription": "Mealie svarede ikke. Sjekk, at det kjører, og prøv igjen.",
+      "typeInstead": "Skriv “{query}” i stedet",
+      "typeInsteadNote": "Ingen oppskrift. Mealie gemmer det som en note.",
+      "categoryCount": {
+        "one": "1 oppskrift i {category}",
+        "other": "{count} oppskrifter i {category}"
+      },
+      "noneInCategoryTitle": "Ingen oppskrifter i {category} ennå",
+      "noneInCategoryDescription": "Søk etter en oppskrift ved navn, eller velg Favoritter."
+    },
+    "library": {
+      "info": "Oppskriftene ligger i Mealie. Tryk på en for å åpne den der, eller på skjermknappen for å vise den på veggen.",
+      "placeholder": "Søk i oppskrifter…",
+      "placeholderCount": {
+        "one": "Søk i 1 oppskrift…",
+        "other": "Søk i {count} oppskrifter…"
+      },
+      "noneDescription": "Sjekk stavningen, eller prøv et kortere ord.",
+      "moreFailed": "Kan ikke hente flere oppskrifter like nå.",
+      "emptyTitle": "Ingen oppskrifter i Mealie ennå",
+      "emptyDescription": "Oppskrifter, I tilføjer i Mealie, vises her.",
+      "openRecipeAriaLabel": "Åpne {meal} i Mealie",
+      "noFavoritesDescription": "Tryk på hjertet ved en oppskrift, så dukker den opp her."
+    },
+    "grocery": {
+      "lists": "Innkjøpslister",
+      "listLeft": {
+        "one": "{list}, 1 ting å kjøpe",
+        "other": "{list}, {count} ting å kjøpe"
+      },
+      "addPlaceholder": "Legg til til {list}",
+      "addButton": "Legg til",
+      "added": "{item} er på {list}",
+      "addedUnder": "{item} er på {list}, under {label}",
+      "already": "{item} er allerede på {list}",
+      "putBack": "{item} er tilbake på {list}",
+      "undo": "Fortryd",
+      "picked": "Alle ser nå {list}.",
+      "moved": "Viser {list}, valgt på en annen enhet.",
+      "gone": "{from} finnes ikke lenger i Mealie. Viser {list}.",
+      "hint": "Din Mealie-liste. Det, du krydser av her, blir også krydset av i Mealie.",
+      "forRecipes": "til {recipes}",
+      "noLabel": "Ingen etiket",
+      "toGet": {
+        "one": "1 ting å kjøpe",
+        "other": "{count} ting å kjøpe"
+      },
+      "allGot": "Alt er krydset av",
+      "openListAria": "Åpne {list} i Mealie (ny side)",
+      "inCart": "Afkrydset ({count})",
+      "staleUnreachable": "Mealie svarer ikke. Dette er listen fra {time}.",
+      "staleToken": "Mealie lukker ikke Home Screens inn lenger. Dette er listen fra {time}.",
+      "staleSetup": "Home Screens kan ikke bruke denne Mealie. Dette er listen fra {time}.",
+      "staleNotConnected": "Mealie er ikke tilkoblet. Dette er listen fra {time}.",
+      "staleConnection": "Kan ikke nå Home Screens. Dette er listen fra {time}.",
+      "loading": "Henter din liste fra Mealie…",
+      "noListsTitle": "Mealie har ingen innkjøpslister ennå",
+      "noListsDescription": "Lav en innkjøpsliste i Mealie, så dukker den opp her.",
+      "emptyTitle": "Ingenting på {list} ennå",
+      "emptyDescription": "Legg til noe ovenfor, eller send en opskrifts ingredienser hertil fra Mealie.",
+      "unreachableDescription": "Din liste ligger sikkert i Mealie. Sjekk, at Mealie kjører, og prøv igjen.",
+      "connectionTitle": "Kan ikke nå Home Screens like nå",
+      "connectionDescription": "Sjekk, at telefonen er tilkoblet, og prøv igjen.",
+      "noConnection": "Kunne ikke nå Home Screens, så det ble ikke lagret. Sjekk forbindelsen, og prøv igjen.",
+      "notSaved": {
+        "one": "{items} ble ikke lagret. Prøv igjen.",
+        "other": "{items} ble ikke lagret. Prøv igjen."
+      },
+      "notSavedUnreachable": {
+        "one": "{items} ble ikke lagret. Mealie svarer ikke, så prøv igjen om lidt.",
+        "other": "{items} ble ikke lagret. Mealie svarer ikke, så prøv igjen om lidt."
+      },
+      "notSavedToken": {
+        "one": "{items} ble ikke lagret. Mealie lukker ikke Home Screens inn lenger.",
+        "other": "{items} ble ikke lagret. Mealie lukker ikke Home Screens inn lenger."
+      },
+      "notSavedSetup": {
+        "one": "{items} ble ikke lagret. Home Screens kan ikke bruke denne Mealie.",
+        "other": "{items} ble ikke lagret. Home Screens kan ikke bruke denne Mealie."
+      },
+      "notSavedNotConnected": {
+        "one": "{items} ble ikke lagret. Mealie er ikke tilkoblet.",
+        "other": "{items} ble ikke lagret. Mealie er ikke tilkoblet."
+      },
+      "notSavedConnection": {
+        "one": "{items} ble ikke lagret. Kan ikke nå Home Screens, så sjekk forbindelsen, og prøv igjen.",
+        "other": "{items} ble ikke lagret. Kan ikke nå Home Screens, så sjekk forbindelsen, og prøv igjen."
+      },
+      "moreItems": {
+        "one": "1 mer",
+        "other": "{count} mer"
+      },
+      "listGone": "Den liste finnes ikke lenger i Mealie."
+    },
+    "suggest": {
+      "allPlanned": "Alle aftensmåltider i denne uke er allerede planlagt.",
+      "allPlannedDates": "Alle aftensmåltider i uken {range} er allerede planlagt.",
+      "nothingFits": "Mealie hadde ingen oppskrifter å foreslå til de måltider. Se reglene for matplanen i Mealie.",
+      "failed": "Mealie kunne ikke foreslå måltider like nå. Prøv igjen om lidt.",
+      "noDinners": "Foreslå udfylder tomme aftensmåltider, og middag er slått fra i måltidsinnstillingene.",
+      "confirmTitle": {
+        "one": "Udfyld det tomme aftensmåltid?",
+        "other": "Udfyld de tomme aftensmåltider?"
+      },
+      "confirmDescription": {
+        "one": "Home Screens velger en middag blandt dine Mealie-oppskrifter til den tomme aften i denne uke og gemmer den i Mealie. En aften med en matplanregel i Mealie følger reglen.",
+        "other": "Home Screens velger middag blandt dine Mealie-oppskrifter til de {count} tomme aftener i denne uke og gemmer dem i Mealie. Aftener med en matplanregel i Mealie følger reglen."
+      },
+      "confirmDescriptionDates": {
+        "one": "Home Screens velger en middag blandt dine Mealie-oppskrifter til den tomme aften i uken {range} og gemmer den i Mealie. En aften med en matplanregel i Mealie følger reglen.",
+        "other": "Home Screens velger middag blandt dine Mealie-oppskrifter til de {count} tomme aftener i uken {range} og gemmer dem i Mealie. Aftener med en matplanregel i Mealie følger reglen."
+      },
+      "confirmLabel": "Udfyld middag",
+      "done": {
+        "one": "Middag planlagt til {days}.",
+        "other": "Middag planlagt til {days}."
+      },
+      "doneEveryNight": "Middag planlagt til hver aften i denne uke.",
+      "doneEveryNightDates": "Middag planlagt til hver aften i uken {range}."
+    }
+  }
+}

@@ -63,6 +63,7 @@ const LOCALE_CHROME: Record<string, string> = {
   'nl-NL': 'Locatie & taal',
   'pt-BR': 'Localização e idioma',
   'da-DK': 'Placering og sprog',
+  'nb-NO': 'Plassering og språk',
 };
 
 for (const locale of Object.keys(LOCALES)) {

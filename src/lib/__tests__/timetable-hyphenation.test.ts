@@ -15,6 +15,7 @@ import { SUBJECT_BREAK_MARKS } from '../timetable-subjects/hyphenation';
 import { DE_DE_SUBJECTS, DE_DE_NAME_SEAMS } from '../timetable-subjects/de-DE';
 import { NL_NL_SUBJECTS, NL_NL_NAME_SEAMS } from '../timetable-subjects/nl-NL';
 import { DA_DK_SUBJECTS, DA_DK_NAME_SEAMS } from '../timetable-subjects/da-DK';
+import { NB_NO_SUBJECTS, NB_NO_NAME_SEAMS } from '../timetable-subjects/nb-NO';
 
 const SHY = SUBJECT_BREAK_MARKS.soft;
 const ZWSP = SUBJECT_BREAK_MARKS.zeroWidth;
@@ -26,6 +27,7 @@ const SEAM_LISTS = [
   { tag: 'de-DE', seams: DE_DE_NAME_SEAMS, subjects: DE_DE_SUBJECTS },
   { tag: 'nl-NL', seams: NL_NL_NAME_SEAMS, subjects: NL_NL_SUBJECTS },
   { tag: 'da-DK', seams: DA_DK_NAME_SEAMS, subjects: DA_DK_SUBJECTS },
+  { tag: 'nb-NO', seams: NB_NO_NAME_SEAMS, subjects: NB_NO_SUBJECTS },
 ];
 
 describe('hyphenateSubjectName', () => {

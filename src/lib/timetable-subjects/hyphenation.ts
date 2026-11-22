@@ -28,6 +28,7 @@ import { resolveLocaleChain } from '@/i18n/fallback';
 import { DE_DE_NAME_SEAMS } from './de-DE';
 import { NL_NL_NAME_SEAMS } from './nl-NL';
 import { DA_DK_NAME_SEAMS } from './da-DK';
+import { NB_NO_NAME_SEAMS } from './nb-NO';
 
 /** A break the browser may take, printing a hyphen there when it does. */
 const SOFT_HYPHEN = '\u00AD';
@@ -48,6 +49,7 @@ const SEAMS_BY_LOCALE: Record<string, string[][]> = {
   'de-DE': DE_DE_NAME_SEAMS,
   'nl-NL': NL_NL_NAME_SEAMS,
   'da-DK': DA_DK_NAME_SEAMS,
+  'nb-NO': NB_NO_NAME_SEAMS,
 };
 
 /** One language's seams, as name (folded for lookup) to break offsets. */

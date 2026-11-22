@@ -125,6 +125,9 @@ describe('lookupKey', () => {
 describe('resolveShippedLocale', () => {
   it('keeps a shipped locale, maps a region of a shipped language to it, and falls back to English otherwise', () => {
     expect(resolveShippedLocale('da-DK')).toBe('da-DK');
+    expect(resolveShippedLocale('nb-NO')).toBe('nb-NO');
+    expect(resolveShippedLocale('no-NO')).toBe('nb-NO');
+    expect(resolveShippedLocale('nn-NO')).toBe('nb-NO');
     expect(resolveShippedLocale('de-AT')).toBe('de-DE');
     expect(resolveShippedLocale('pt-PT')).toBe('pt-BR');
     expect(resolveShippedLocale('ja-JP')).toBe('en-US');

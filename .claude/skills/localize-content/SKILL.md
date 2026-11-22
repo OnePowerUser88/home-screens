@@ -9,7 +9,7 @@ description: "Localize seed or content data into all seven Home Screens locales 
 
 Ships content in all seven supported locales using the fan-out pattern that has worked before (word-of-day, affirmations): parallel per-locale generation, then a parallel adversarial reviewer per locale, then structural verification. Native quality and cultural adaptation, not literal translation.
 
-Locales (source of truth: `src/i18n/manifest.ts`): `en-US` (source), `de-DE`, `fr-FR`, `es-ES`, `nl-NL`, `pt-BR`, `da-DK`.
+Locales (source of truth: `src/i18n/manifest.ts`): `en-US` (source), `de-DE`, `fr-FR`, `es-ES`, `nl-NL`, `pt-BR`, `da-DK`, `nb-NO`.
 
 ## Process
 

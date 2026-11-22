@@ -25,6 +25,7 @@ import { ES_ES_SUBJECTS } from '../timetable-subjects/es-ES';
 import { NL_NL_SUBJECTS } from '../timetable-subjects/nl-NL';
 import { PT_BR_SUBJECTS } from '../timetable-subjects/pt-BR';
 import { DA_DK_SUBJECTS } from '../timetable-subjects/da-DK';
+import { NB_NO_SUBJECTS } from '../timetable-subjects/nb-NO';
 
 const CATALOGUES = [
   { tag: 'en-US', subjects: EN_US_SUBJECTS },
@@ -34,6 +35,7 @@ const CATALOGUES = [
   { tag: 'nl-NL', subjects: NL_NL_SUBJECTS },
   { tag: 'pt-BR', subjects: PT_BR_SUBJECTS },
   { tag: 'da-DK', subjects: DA_DK_SUBJECTS },
+  { tag: 'nb-NO', subjects: NB_NO_SUBJECTS },
 ];
 
 /** The local language subject, maths and sport carry the same colour everywhere. */

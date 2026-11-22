@@ -27,6 +27,7 @@ import { ES_ES_STARTER_CHORE_NAMES } from './starter-chores-names/es-ES';
 import { NL_NL_STARTER_CHORE_NAMES } from './starter-chores-names/nl-NL';
 import { PT_BR_STARTER_CHORE_NAMES } from './starter-chores-names/pt-BR';
 import { DA_DK_STARTER_CHORE_NAMES } from './starter-chores-names/da-DK';
+import { NB_NO_STARTER_CHORE_NAMES } from './starter-chores-names/nb-NO';
 
 export type { StarterChoreId, StarterChoreSection, StarterChoreSpec };
 export { STARTER_CHORE_SECTIONS };
@@ -39,6 +40,7 @@ export const STARTER_CHORE_NAMES_BY_LOCALE: Record<string, Record<StarterChoreId
   'nl-NL': NL_NL_STARTER_CHORE_NAMES,
   'pt-BR': PT_BR_STARTER_CHORE_NAMES,
   'da-DK': DA_DK_STARTER_CHORE_NAMES,
+  'nb-NO': NB_NO_STARTER_CHORE_NAMES,
 };
 
 /** One starter as the picker shows it: the catalog row plus its name in the UI language. */

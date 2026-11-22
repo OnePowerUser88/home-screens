@@ -40,6 +40,8 @@ describe('googleNewsEdition', () => {
     ['nl-NL', { hl: 'nl', gl: 'NL', ceid: 'NL:nl' }],
     ['pt-BR', { hl: 'pt-BR', gl: 'BR', ceid: 'BR:pt-419' }],
     ['da-DK', { hl: 'da', gl: 'DK', ceid: 'DK:da' }],
+    ['nb-NO', { hl: 'no', gl: 'NO', ceid: 'NO:no' }],
+    ['no-NO', { hl: 'no', gl: 'NO', ceid: 'NO:no' }],
   ])('maps %s to its Google News edition', (locale, expected) => {
     expect(googleNewsEdition(locale)).toEqual(expected);
   });

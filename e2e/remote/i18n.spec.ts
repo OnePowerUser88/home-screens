@@ -22,6 +22,7 @@ const LOCALE_CHORES_TAB: Record<string, string> = {
   'nl-NL': 'Klusjes',
   'pt-BR': 'Tarefas',
   'da-DK': 'Pligter',
+  'nb-NO': 'Oppgaver',
 };
 
 for (const locale of Object.keys(LOCALES)) {

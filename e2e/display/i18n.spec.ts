@@ -31,6 +31,7 @@ const LOCALE_CONDITION: Record<string, string> = {
   'nl-NL': 'Zonnig',
   'pt-BR': 'Ensolarado',
   'da-DK': 'Sol',
+  'nb-NO': 'Sol',
 };
 
 /**

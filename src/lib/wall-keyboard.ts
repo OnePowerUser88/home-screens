@@ -23,6 +23,10 @@ const LAYOUTS: Record<string, WallKeyboardLayout> = {
   es: { rows: ['qwertyuiop', 'asdfghjklñ', 'zxcvbnm'] },
   pt: { rows: ['qwertyuiop', 'asdfghjklç', 'zxcvbnm'] },
   da: { rows: ['qwertyuiopå', 'asdfghjklæø', 'zxcvbnm'] },
+  // Norwegian puts ø before æ. Bokmål, Nynorsk and the bare "no" tag share it.
+  nb: { rows: ['qwertyuiopå', 'asdfghjkløæ', 'zxcvbnm'] },
+  no: { rows: ['qwertyuiopå', 'asdfghjkløæ', 'zxcvbnm'] },
+  nn: { rows: ['qwertyuiopå', 'asdfghjkløæ', 'zxcvbnm'] },
 };
 
 /** The layout for a BCP-47 locale ("de-DE"), by its language; English for anything else. */

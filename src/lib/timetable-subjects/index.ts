@@ -25,6 +25,7 @@ import { ES_ES_SUBJECTS } from './es-ES';
 import { NL_NL_SUBJECTS } from './nl-NL';
 import { PT_BR_SUBJECTS } from './pt-BR';
 import { DA_DK_SUBJECTS } from './da-DK';
+import { NB_NO_SUBJECTS } from './nb-NO';
 import type { DefaultSubject } from './types';
 
 export { hyphenateSubjectName, SUBJECT_BREAK_MARKS } from './hyphenation';
@@ -37,6 +38,7 @@ const SUBJECTS_BY_LOCALE: Record<string, DefaultSubject[]> = {
   'nl-NL': NL_NL_SUBJECTS,
   'pt-BR': PT_BR_SUBJECTS,
   'da-DK': DA_DK_SUBJECTS,
+  'nb-NO': NB_NO_SUBJECTS,
 };
 
 /**

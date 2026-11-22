@@ -10,6 +10,7 @@ describe('wallKeyboardLayout', () => {
     expect(wallKeyboardLayout('es-ES').rows.join('')).toContain('ñ');
     expect(wallKeyboardLayout('pt-BR').rows.join('')).toContain('ç');
     expect(wallKeyboardLayout('da-DK').rows.join('')).toMatch(/[æøå]{2}/);
+    expect(wallKeyboardLayout('nb-NO').rows[1]).toBe('asdfghjkløæ');
     expect(wallKeyboardLayout('nl-NL').rows[0]).toBe('qwertyuiop');
   });
 

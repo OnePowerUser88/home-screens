@@ -140,6 +140,16 @@ export const NEWS_PRESETS: NewsPreset[] = [
   preset('da-DK', 'DR', 'sports', 'dr-sport', 'https://www.dr.dk/nyheder/service/feeds/sporten'),
   preset('da-DK', 'Politiken', 'top', 'politiken-top', 'https://politiken.dk/rss/senestenyt.rss'),
   preset('da-DK', 'Ingeniøren', 'technology', 'ingenioren', 'https://ing.dk/rss/nyheder'),
+
+  // ── nb-NO ─────────────────────────────────────────────────────────────
+  preset('nb-NO', 'NRK', 'top', 'nrk-top', 'https://www.nrk.no/toppsaker.rss'),
+  preset('nb-NO', 'NRK', 'world', 'nrk-urix', 'https://www.nrk.no/urix/toppsaker.rss'),
+  preset('nb-NO', 'NRK', 'science', 'nrk-viten', 'https://www.nrk.no/viten/toppsaker.rss'),
+  preset('nb-NO', 'NRK', 'sports', 'nrk-sport', 'https://www.nrk.no/sport/toppsaker.rss'),
+  preset('nb-NO', 'VG', 'top', 'vg-top', 'https://www.vg.no/rss/feed/'),
+  preset('nb-NO', 'Aftenposten', 'top', 'aftenposten-top', 'https://www.aftenposten.no/rss'),
+  preset('nb-NO', 'E24', 'business', 'e24-top', 'https://e24.no/rss'),
+  preset('nb-NO', 'Teknisk Ukeblad', 'technology', 'tu-no', 'https://www.tu.no/rss'),
 ];
 
 /** The preset a fresh module starts with for a locale (its language's first "top" feed, else BBC). */

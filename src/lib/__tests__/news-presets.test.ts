@@ -8,7 +8,7 @@ import {
 } from '../news-presets';
 import { LOCALES } from '@/i18n/manifest';
 
-const SHIPPED_LOCALES = ['en-US', 'de-DE', 'fr-FR', 'es-ES', 'nl-NL', 'pt-BR', 'da-DK'];
+const SHIPPED_LOCALES = ['en-US', 'de-DE', 'fr-FR', 'es-ES', 'nl-NL', 'pt-BR', 'da-DK', 'nb-NO'];
 
 describe('NEWS_PRESETS integrity', () => {
   it('has a unique id for every preset', () => {
@@ -34,7 +34,7 @@ describe('NEWS_PRESETS integrity', () => {
     }
   });
 
-  it('every preset belongs to one of the seven shipped locales', () => {
+  it('every preset belongs to one of the shipped locales', () => {
     for (const p of NEWS_PRESETS) {
       expect(SHIPPED_LOCALES, p.id).toContain(p.locale);
     }

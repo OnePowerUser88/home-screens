@@ -29,11 +29,13 @@ describe('formatDateSync', () => {
     expect(formatDateSync(fixed, 'EEEE', { locale: 'nl-NL' })).toBe('maandag');
     expect(formatDateSync(fixed, 'EEEE', { locale: 'pt-BR' })).toBe('segunda-feira');
     expect(formatDateSync(fixed, 'EEEE', { locale: 'da-DK' })).toBe('mandag');
+    expect(formatDateSync(fixed, 'EEEE', { locale: 'nb-NO' })).toBe('mandag');
   });
 
   it('reads a region of a shipped language in that language, and anything else in US English', () => {
     expect(formatDateSync(fixed, 'EEEE', { locale: 'de-AT' })).toBe('Montag');
     expect(formatDateSync(fixed, 'EEEE', { locale: 'pt-PT' })).toBe('segunda-feira');
+    expect(formatDateSync(fixed, 'EEEE', { locale: 'no-NO' })).toBe('mandag');
     expect(formatDateSync(fixed, 'EEEE', { locale: 'ja-JP' })).toBe('Monday');
   });
 });
@@ -50,6 +52,7 @@ describe('dayOfMonthPattern', () => {
   it('gives German and Danish the ordinal point their dates carry', () => {
     expect(dayOfMonthPattern('de-DE')).toBe('d.');
     expect(dayOfMonthPattern('da-DK')).toBe('d.');
+    expect(dayOfMonthPattern('nb-NO')).toBe('d.');
   });
 
   it('leaves the day a bare number where the language writes one', () => {
@@ -160,7 +163,7 @@ describe('dayMonthPattern and fullDatePattern', () => {
   // every language, so the default locale rendered "Monday, 2 November".
   // Which half leads, the separator after the weekday, and the "de" some
   // languages join with are all the language's own business.
-  for (const locale of ['en-US', 'de-DE', 'fr-FR', 'es-ES', 'nl-NL', 'pt-BR', 'da-DK']) {
+  for (const locale of ['en-US', 'de-DE', 'fr-FR', 'es-ES', 'nl-NL', 'pt-BR', 'da-DK', 'nb-NO']) {
     it(`${locale}: writes the day and month the way the locale does`, async () => {
       expect(formatDateSync(fixed, dayMonthPattern(locale), { locale })).toBe(intl(locale, false));
     });

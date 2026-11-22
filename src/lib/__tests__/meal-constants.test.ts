@@ -72,7 +72,7 @@ describe('formatShortDayMonth', () => {
     // October 1st, which month/day everywhere showed as "10/1": the 10th of
     // January to anyone who reads day first.
     expect(formatShortDayMonth('2026-10-01', 'en-US')).toBe('10/1');
-    for (const locale of ['de-DE', 'fr-FR', 'es-ES', 'nl-NL', 'pt-BR', 'da-DK']) {
+    for (const locale of ['de-DE', 'fr-FR', 'es-ES', 'nl-NL', 'pt-BR', 'da-DK', 'nb-NO']) {
       const shown = formatShortDayMonth('2026-10-01', locale);
       expect(shown, locale).toMatch(/^0?1\D+10\D*$/);
     }

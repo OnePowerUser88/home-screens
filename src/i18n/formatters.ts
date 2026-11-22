@@ -19,6 +19,7 @@ import { es } from 'date-fns/locale/es';
 import { nl } from 'date-fns/locale/nl';
 import { ptBR } from 'date-fns/locale/pt-BR';
 import { da } from 'date-fns/locale/da';
+import { nb } from 'date-fns/locale/nb';
 
 interface DateFormatOpts {
   locale: string;
@@ -63,6 +64,9 @@ function dateFnsLocale(tag: string): DateFnsLocale {
     case 'nl': return nl;
     case 'pt': return ptBR;
     case 'da': return da;
+    case 'nb':
+    case 'no':
+    case 'nn': return nb;
     default: return enUS;
   }
 }

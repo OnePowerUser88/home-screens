@@ -1,0 +1,475 @@
+{
+  "refusals": {
+    "hubUnreachable": "Home Screens kunne ikke nås, så det ble ikke lagret. Sjekk forbindelsen, og prøv igjen.",
+    "lists": {
+      "failed": "Noe gikk galt. Prøv igjen.",
+      "nameRequired": "Giv listen et navn",
+      "nameTooLong": "Et listenavn må høyst være {max} tegn",
+      "textRequired": "Skriv noe først",
+      "textTooLong": "Et punkt må høyst være {max} tegn",
+      "badDate": "Den dag kender vi ikke",
+      "badColor": "Velg en farge fra listen",
+      "listGone": "Den liste finnes ikke lenger",
+      "itemGone": "Det punkt finnes ikke lenger",
+      "tooManyLists": "Du kan ha opp til {max} lister",
+      "tooManyItems": "En liste kan rumme opp til {max} punkter",
+      "orderChanged": "Listen endrede seg, mens du flyttede rundt på ting. Prøv igjen.",
+      "badRequest": "Den endring kunne ikke forstås. Last på nytt siden, og prøv igjen."
+    },
+    "notes": {
+      "failed": "Det ble ikke lagret. Prøv igjen.",
+      "textRequired": "Skriv noe først.",
+      "textTooLong": "En seddel må høyst være {max} tegn.",
+      "badAuthor": "Avsenderen skal være en fra familien.",
+      "badLife": "Velg, hvor lenge sedlen skal bli hengende.",
+      "badRequest": "Den endring kunne ikke forstås. Last på nytt siden, og prøv igjen.",
+      "noteGone": "Den seddel er her ikke lenger.",
+      "boardFull": "Tavlen er full: {max} sedler. Tag noen ned først."
+    },
+    "family": {
+      "revision": "Noen endrede familien, mens du redigerede. Den aktuelle liste vises. Foretag din endring igjen.",
+      "badRequest": "Den endring kunne ikke forstås. Last på nytt siden, og prøv igjen.",
+      "nameTooLong": "Navne må høyst være {max} tegn.",
+      "tooManyMembers": "Du kan legge til personer, så lenge familien har færre end {max} medlemmer.",
+      "tooManyGroups": "Du kan ha opp til {max} grupper.",
+      "groupNameTooLong": "Gruppenavne må høyst være {max} tegn.",
+      "groupNameTaken": "Du har allerede en gruppe, der heter {name}.",
+      "groupMemberRemoved": "En gruppe nevner en, der ikke står på familielisten. Oppdater, og prøv igjen.",
+      "memberRemoved": "En i dette valg er blitt fjernet. Oppdater, og velg igjen.",
+      "groupRemoved": "En gruppe i dette valg er blitt fjernet. Oppdater, og velg igjen.",
+      "dataInvalid": "Familiens data krever oppmerksomhet. Åpne innstillingene for å gå gjennom dem, eller gjenopprett en sikkerhetskopi.",
+      "dataWaiting": "Familiens data er ved å bli gendannet. Prøv igjen om et minut.",
+      "restoreMissing": "Den sikkerhetskopi nevner personer eller grupper, der ikke står på dens familieliste, så den ble ikke gendannet. Gjenopprett en sikkerhetskopi, der har dem med."
+    }
+  },
+  "today": "I dag",
+  "tomorrow": "I morgen",
+  "yesterday": "I går",
+  "loading": "Henter…",
+  "actions": {
+    "cancel": "Annullér",
+    "delete": "Slett",
+    "remove": "Fjern",
+    "add": "Legg til",
+    "close": "Luk",
+    "back": "Tilbake",
+    "confirm": "Bekreft",
+    "save": "Lagre",
+    "done": "Afslut",
+    "edit": "Rediger",
+    "clear": "Nullstill",
+    "settings": "Innstillinger",
+    "name": "Navn",
+    "color": "Farge",
+    "icon": "Ikon",
+    "label": "Etiket"
+  },
+  "status": {
+    "saving": "Gemmer…",
+    "uploadingCount": "Uploader {current} av {total}...",
+    "connected": "Tilkoblet",
+    "disabled": "Deaktiveret",
+    "never": "Aldri",
+    "none": "Ingen"
+  },
+  "relativeTime": {
+    "justNow": "like nå",
+    "secondsAgo": "{n}s siden",
+    "minutesAgo": "{n}m siden",
+    "hoursAgo": "{n}t siden",
+    "daysAgo": "{n}d siden",
+    "weeksAgo": "{n}u siden"
+  },
+  "emptyDisplay": {
+    "eyebrow": "Home Screens",
+    "headline": "Der er ikke noe på denne skjerm ennå",
+    "body": "Åpne på en telefon eller datamaskin på ditt hjemme-wi-fi",
+    "hideHint": "Vil du hellere ha en tom skjerm? Innstillinger › Skjerm › Vis dette tip"
+  },
+  "openedScreen": {
+    "backTo": "Tilbake til {name}",
+    "back": "Tilbake"
+  },
+  "pagination": {
+    "paused": "Sat på pause",
+    "previousScreen": "Forrige skjerm",
+    "nextScreen": "Neste skjerm",
+    "resumesIn": "Fortsetter om {time} · tryk for å fortsette nå",
+    "tapToResume": "tryk for å fortsette",
+    "minutes": "{count} min",
+    "seconds": "{count} sek.",
+    "heldInPreview": "Rotationen står stille i forhåndsvisningen"
+  },
+  "displayNotFound": {
+    "notRegistered": "Skjerm ikke lagt til ennå",
+    "adoptionLine1": "Denne skjerm er tilkoblet til Home Screens, men er ikke lagt til ennå.",
+    "adoptionLine2": "Åpne redigeringsverktøyet på hubben, gå til",
+    "settingsLink": "Innstillinger → Skjermer",
+    "andClick": "og klikk",
+    "adoptLabel": "Legg til",
+    "nextTo": "ved siden av",
+    "waitingForAdoption": "Venter på å bli lagt til…",
+    "recoveryNotice": "Denne skjerm er ikke sat opp ennå, men det er dine andre skjermer. Skifter til hovedskjermen om {seconds}s.",
+    "goToDefault": "Gå til hovedskjermen nå"
+  },
+  "login": {
+    "checkingAuth": "Kontrollerer godkendelse…",
+    "ipBlocked": "Denne enhet må ikke logge inn",
+    "enterPasswordToContinue": "Skriv inn ditt kodeord for å fortsette",
+    "accessRestricted": "Begrenset adgang",
+    "accessRestrictedDescription": "Home Screens tager kun mot forbindelser fra bestemte enheter, og denne er ikke på listen. Det hjelper ikke å logge inn. Bed den, der satte Home Screens opp, om å legge til denne enhet, eller prøv fra en enhet, der allerede har lov.",
+    "passwordPlaceholder": "Kodeord",
+    "rememberMe": "Husk meg i 90 dager",
+    "signingIn": "Logger inn…",
+    "unlock": "Lås opp",
+    "loading": "Henter…",
+    "backToDisplay": "Tilbake til skjerm",
+    "loginFailed": "Logind feilede",
+    "unreachable": "Kan ikke nå Home Screens",
+    "errors": {
+      "wrongPassword": "Det kodeord passer ikke.",
+      "tooManyTries": {
+        "one": "For mange forsøg. Vent {count} minut, og prøv så igjen.",
+        "other": "For mange forsøg. Vent {count} minutter, og prøv så igjen."
+      }
+    },
+    "forgotPassword": {
+      "link": "Glemt kodeordet?",
+      "title": "Nullstill kodeordet",
+      "body": "Den, der satte enheten opp, kan slette kodeordet. Kjør det på selve enheten (med et tastatur i) eller fra en annen datamaskin i en terminal:",
+      "fallback": "Findes den kommando ikke, gjør det det samme å slette filen {file} i Home Screens-mappen.",
+      "after": "Derefter åpner Home Screens uten kodeord, og du kan velge et nyt under innstillinger."
+    }
+  },
+  "errors": {
+    "fetchFailed": "Kunne ikke oprette forbindelse for å hente disse data",
+    "loadImagesFailed": "Lasting av bildene feilede",
+    "uploadFailed": "Upload feilede",
+    "uploadFailedFor": "Upload av {name} mislykkedes",
+    "createFolderFailed": "Oprettelse av mappen feilede",
+    "deleteFolderFailed": "Sletning av mappen feilede",
+    "deleteImageFailed": "Sletning av bildet feilede",
+    "googleExpired": "Din Google-forbindelse er udløbet. Log inn igjen.",
+    "googleDisconnectFailed": "Google kunne ikke kobles fra. Sjekk din internettforbindelse, og prøv igjen.",
+    "googleStatusFailed": "Din Google-forbindelse kunne ikke tjekkes. Last på nytt siden, og prøv igjen.",
+    "deviceFlowFailed": "Kunne ikke starte enhetslogin",
+    "codeExpired": "Koden er udløbet. Prøv igjen.",
+    "authorizationFailed": "Godkendelse feilede",
+    "startSignInFailed": "Start av logind feilede",
+    "deleteImageInUse": "Dette bilde vises fortsatt på en skjerm, så det kan ikke slettes",
+    "deleteImageInUseOn": "Dette bilde brukes fortsatt på {where}, så det kan ikke slettes"
+  },
+  "days": {
+    "sunday": "søndag",
+    "monday": "mandag",
+    "tuesday": "tirsdag",
+    "wednesday": "onsdag",
+    "thursday": "torsdag",
+    "friday": "fredag",
+    "saturday": "lørdag"
+  },
+  "meal": {
+    "difficulty": {
+      "easy": "Let",
+      "medium": "Middel",
+      "hard": "Vanskelig"
+    },
+    "tags": {
+      "breakfast": "Frokost",
+      "lunch": "Lunsj",
+      "dinner": "Middag",
+      "snack": "Snack",
+      "quick": "Hurtig",
+      "healthy": "Sund",
+      "vegetarian": "Vegetarisk",
+      "vegan": "Vegansk",
+      "comfort": "Trøstemad",
+      "spicy": "Krydret",
+      "kid-friendly": "Barnevenlig",
+      "meal-prep": "Forberedelse",
+      "gluten-free": "Glutenfri",
+      "dairy-free": "Melkefri",
+      "batch-cook": "Store portioner"
+    },
+    "ingredientCategories": {
+      "produce": "Frugt og grønt",
+      "dairy": "Meieriprodukter",
+      "meat": "Kød",
+      "seafood": "Fisk og skaldyr",
+      "bakery": "Bakverk",
+      "pantry": "Spisekammer",
+      "frozen": "Frossen",
+      "beverages": "Drikkevarer",
+      "other": "Annet"
+    },
+    "grocery": {
+      "categoryLabels": {
+        "produce": "Frugt og grønt",
+        "dairy": "Meieriprodukter og egg",
+        "meat": "Kød og Fisk og skaldyr",
+        "seafood": "Kød og Fisk og skaldyr",
+        "bakery": "Bakverk",
+        "pantry": "Spisekammer",
+        "frozen": "Frossen",
+        "beverages": "Drikkevarer",
+        "other": "Annet"
+      }
+    },
+    "kind": {
+      "main": "Hovedret",
+      "side": "Tilbehør",
+      "dessert": "Dessert",
+      "drink": "Drikke"
+    }
+  },
+  "timer": {
+    "stepCount": "Trin {current} av {total}",
+    "quickName": "{minutes} minutters timer",
+    "almostDone": "Nesten ferdig!",
+    "done": "Ferdig!",
+    "paused": "På pause",
+    "allDone": "Alt er klaret!",
+    "timesUp": "Tiden er gået!",
+    "finished": "{name} er ferdig",
+    "stepsDone": "trin klaret",
+    "totalTime": "samlet tid",
+    "nextUp": "Neste:",
+    "minutesShort": "{minutes} min.",
+    "moreSteps": "+{count} mer",
+    "progressWords": "{done} klaret · {left} tilbake",
+    "quickNameSeconds": "{seconds} sekunders timer",
+    "quickNameClock": "{time}-timer"
+  },
+  "launcher": {
+    "heading": "Hvor vil du hen?",
+    "remote": {
+      "title": "Familiefjernbetjening",
+      "body": "Oppgaver, måltider, timere og skjermene"
+    },
+    "chores": {
+      "title": "Barnas oppgaver",
+      "body": "Sett kryds ved dagens oppgaver"
+    },
+    "display": {
+      "title": "Skjerm",
+      "body": "Se hva veggen viser"
+    },
+    "editor": {
+      "title": "Editor",
+      "body": "Byg dine skjermer. Fungerer bedst på en bærbar eller stasjonær datamaskin."
+    },
+    "editorAddressHint": "Åpne denne adresse på en datamaskin for å bygge dine skjermer:",
+    "editorAddressLabel": "Editorens adresse",
+    "copy": "Kopiér",
+    "copied": "Kopiert",
+    "openEditor": "Åpne editoren"
+  },
+  "alerts": {
+    "dismiss": "Afvis"
+  },
+  "family": {
+    "title": "Familie",
+    "add": "Legg til person",
+    "edit": "Rediger person",
+    "emoji": "Emoji (valgfri)",
+    "color": "Farge",
+    "emptyTitle": "Ingen ennå",
+    "emptyDescription": "Legg til personene i din husstand. De blir tilgjengelige i oppgaver, belønninger, kalendere og skjemaer.",
+    "loadFailed": "Din familie kunne ikke lastes.",
+    "saveFailed": "Din familie kunne ikke lagres.",
+    "retry": "Prøv igjen",
+    "saved": "Familie lagret.",
+    "saving": "Gemmer…",
+    "removeTitle": "Fjern {name}?",
+    "removeDescription": "Når du fjerner {name}, slettes personens oppgaver, planer, historik, billetter og adgang til belønninger. Valget av personens kalendere glemmes også. Oppgaver uten noen tilbake til å udføre dem slettes. Dette kan ikke angres.",
+    "remove": "Fjern person",
+    "editName": "Rediger {name}",
+    "moveUp": "Flyt {name} opp",
+    "moveDown": "Flyt {name} ned",
+    "pagination": "Familiesider",
+    "previous": "Forrige",
+    "next": "Neste",
+    "page": "Side {page} av {total}",
+    "limit": "Du kan legge til opp til {count} personer. Alle, der allerede er her, bevares og kan fortsatt redigeres eller fjernes.",
+    "choreCount": {
+      "one": "{count} oppgave",
+      "other": "{count} oppgaver"
+    },
+    "removeChoreCount": {
+      "one": "{name} har {count} oppgave.",
+      "other": "{name} har {count} oppgaver."
+    },
+    "hasTimetable": "Har et skjema",
+    "removeTimetable": "{name} har et skjema, og det blir også fjernet.",
+    "groups": {
+      "title": "Grupper",
+      "description": "Sett folk sammen, så en kalender kan vise \"Barn\" i stedet for fem navne, og en oppgave kan gå til dem alle på én gang. En person kan være i mer end én gruppe.",
+      "add": "Legg til gruppe",
+      "edit": "Rediger gruppe",
+      "name": "Gruppenavn",
+      "members": "Hvem er med",
+      "noMembers": "Ingen ennå",
+      "editName": "Rediger {name}",
+      "remove": "Fjern gruppe",
+      "duplicateName": "Du har allerede en gruppe, der heter {name}.",
+      "removeTitle": "Fjern {name}?",
+      "removeDescription": "Skjermer, der kun viser {name}, viser alle igjen. Ingen fjernes fra familien.",
+      "removeChoreCount": {
+        "one": "{count} oppgave går til {name}. Den blir på din liste og venter på, at du velger noen, hvis der ikke er andre på den.",
+        "other": "{count} oppgaver går til {name}. De blir på din liste, og dem, som ingen andre er på, venter, til du velger noen."
+      },
+      "saved": "Grupper lagret.",
+      "saveFailed": "Gruppene kunne ikke lagres.",
+      "limit": "Du kan ha opp til {count} grupper.",
+      "hint": "Grupper brukes av kalenderens fargenøgle og dens filter \"Vis kun\". En oppgave kan også gives til en gruppe. Belønninger tildeles fortsatt personer."
+    }
+  },
+  "customIcons": {
+    "yourIcons": "Dine ikoner",
+    "everydayEmoji": "Almindelige emojis",
+    "builtInIcons": "Indbyggede ikoner",
+    "add": "Legg til ditt eget",
+    "addShort": "Legg til",
+    "addYourOwnLink": "Legg til ditt eget bilde",
+    "addPictures": "Legg til bilder",
+    "emptyHint": "Legg til ditt eget bilde, fx et foto av farmors frikadeller.",
+    "manage": "Administrér",
+    "moving": "Levende bilde",
+    "review": {
+      "title": "Legg til ditt eget ikon",
+      "preview": "Slik kommer det til å se ut på skjermen.",
+      "nameLabel": "Navn",
+      "use": "Bruk dette ikon",
+      "pickAnother": "Velg et annet bilde",
+      "working": "Gjør ditt bilde klar…",
+      "existing": "Du har allerede dette bilde: {name}.",
+      "wide": "Bildet er veldig bredt, så det kommer til å se lille ut. Et firkantet bilde virker bedst.",
+      "tall": "Bildet er veldig høyt, så det kommer til å se lille ut. Et firkantet bilde virker bedst.",
+      "tiny": "Bildet er veldig lille og kan se sløret ut.",
+      "crop": "Beskjær til en firkant"
+    },
+    "errors": {
+      "too-big": "Det bilde er for stort. Velg et under 5 MB.",
+      "not-a-picture": "Kun bilder virker her (PNG, JPG, WebP eller GIF).",
+      "picture-too-large": "Det bilde er for stort til å bruke. Velg et mindre.",
+      "animation-too-big": "Det levende bilde er for stort. Prøv et kortere.",
+      "library-full": "Du har 300 ikoner, og det er det høyeste antal, du kan ha. Fjern et, du ikke bruker, for å gjøre plass.",
+      "budget-full": "Dine ikoner har brukt al deres plass. Fjern et, du ikke bruker, for å gjøre plass.",
+      "bad-name": "Giv ikonet et navn.",
+      "not-found": "Det ikon finnes ikke lenger.",
+      "failed": "Det virket ikke. Prøv igjen.",
+      "svg-drawing": "Tegninger lagret som SVG kan ikke brukes. Lagre den som PNG først."
+    },
+    "formats": "PNG, JPG, WebP eller GIF, opp til 5 MB.",
+    "page": {
+      "title": "Dine ikoner",
+      "description": "Bilder, som familien har lagt til. Bruk dem til måltider, oppgaver, belønninger, personer og rutiner.",
+      "count": {
+        "one": "{count} ikon",
+        "other": "{count} ikoner"
+      },
+      "used": "{used} av {max} brukt",
+      "inUseLegend": "Brukes et sted",
+      "notUsed": "Brukes ikke",
+      "usedIn": {
+        "one": "Brukes {count} sted",
+        "other": "Brukes {count} steder"
+      },
+      "dropHint": "Slip bilder her",
+      "tapHint": "Tryk på et bilde for å omdøbe eller fjerne det.",
+      "usedByList": "Brukes av: {list}.",
+      "empty": "Ingen ikoner ennå. Legg til et bilde, og bruk det til måltider, oppgaver og veldig mer."
+    },
+    "detail": {
+      "added": "Lagt til {date} · {size}",
+      "usedBy": "Brukes av",
+      "save": "Lagre",
+      "remove": "Fjern ikon",
+      "rename": "Omdøb"
+    },
+    "kinds": {
+      "meal": "Måltid",
+      "chore": "Oppgave",
+      "reward": "Belønning",
+      "person": "Person",
+      "routine": "Rutine",
+      "screen": "Skjerm"
+    },
+    "remove": {
+      "title": "Fjern {name}?",
+      "inUse": {
+        "one": "Det brukes {count} sted. Der vises et standardikon i stedet.",
+        "other": "Det brukes {count} steder. Der vises et standardikon i stedet."
+      },
+      "notUsed": "Det brukes ikke noen steder.",
+      "confirm": "Fjern",
+      "keep": "Behold det"
+    },
+    "settingsRow": {
+      "description": {
+        "zero": "Legg til dine egne bilder",
+        "one": "{count} bilde, du har lagt til",
+        "other": "{count} bilder, du har lagt til"
+      }
+    },
+    "backup": {
+      "include": "Tag dine ikoner med",
+      "includeWithSize": "Tag dine ikoner med ({size})",
+      "adds": "Gjør filen {size} større",
+      "help": "De bilder, du har lagt til til måltider, oppgaver, belønninger, personer og rutiner. La den være slått fra for å holde filen lille.",
+      "leftOutWhenOff": "Dine bilder kommer ikke med",
+      "missing": "Noen måltider og oppgaver brukte dine egne ikoner, som ikke var med i denne sikkerhetskopi. Der vises det vanlige bilde i stedet.",
+      "restoreNoIcons": "Denne sikkerhetskopi har ikke dine bilder med. Måltider og oppgaver, der brukte dem, får et standardbilde i stedet.",
+      "leftOut": "Lagret, men dine ikoner kunne ikke komme med. Prøv igjen for å tage dem med."
+    },
+    "photosPrompt": "Vil du ha dine egne bilder til måltider og oppgaver?",
+    "photosButton": "Legg til dem her"
+  },
+  "pictureBackup": {
+    "heading": "Bilder",
+    "off": "Ikke med",
+    "used": "Kun dem, dine skjermer bruker",
+    "all": "Hele ditt billedbibliotek",
+    "help": "Bakgrunner, diasshow-mapper og videoer på dine skjermer. En sikkerhetskopi med bilder lagres som en zip-fil.",
+    "files": {
+      "one": "{count} fil",
+      "other": "{count} filer"
+    },
+    "missingNow": {
+      "one": "{count} bilde, som dine skjermer bruker, mangler allerede og kan ikke komme med.",
+      "other": "{count} bilder, som dine skjermer bruker, mangler allerede og kan ikke komme med."
+    },
+    "openLibrary": "Åpne Bilder & videoer",
+    "leftOut": "Lagret, men dine bilder kunne ikke komme med. Prøv igjen for å tage dem med.",
+    "restoreConfirm": {
+      "one": "Denne sikkerhetskopi har {count} bilde ({size}). Et bilde med samme navn på denne hub blir erstattet; ingenting blir fjernet.",
+      "other": "Denne sikkerhetskopi har {count} bilder og videoer ({size}). Et bilde med samme navn på denne hub blir erstattet; ingenting blir fjernet."
+    },
+    "restoreConfirmButton": "Gjenopprett",
+    "restoreMissing": "Noen skjermer bruker bilder, der ikke var med i denne sikkerhetskopi. Åpne Bilder & videoer for å se hvilke.",
+    "phoneRow": "Bilder i sikkerhedskopien",
+    "phoneUsed": "Kun dem på skjermen",
+    "phoneAll": "Hele ditt bibliotek",
+    "phoneOff": "Ikke med"
+  },
+  "noTimezone": {
+    "title": "Ingen tidssone ennå.",
+    "body": "Dine skjermer bruker hubbens ur ({zone}), så tidene kan være feil.",
+    "action": "Velg tidssone"
+  },
+  "routeError": {
+    "title": "Siden kan ikke lastes like nå",
+    "body": "Home Screens har problemer med å lese sine lagret data. Den prøver selv igjen om lidt.",
+    "help": "Hvis det ikke går vekk, kan en voksen åpne Home Screens på en datamaskin og legge en sikkerhetskopi tilbake under Innstillinger.",
+    "retry": "Prøv igjen"
+  },
+  "mealTimeChip": {
+    "servingTimeAria": "Serveringstide {time}, klikk for å endre",
+    "servingTimeTitle": "Serveringstid: {time}",
+    "setServingTime": "Indstil serveringstid",
+    "setTime": "+ Indstil tid",
+    "setMealTime": "Indstil tid for måltid",
+    "servingTime": "Indstil tid for servering",
+    "clearTime": "Nullstill tid"
+  }
+}

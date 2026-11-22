@@ -34,7 +34,7 @@ describe('localeWeekStart', () => {
   });
 
   it('starts on Monday everywhere else', () => {
-    for (const tag of ['de-DE', 'fr-FR', 'es-ES', 'nl-NL', 'da-DK', 'en-GB']) {
+    for (const tag of ['de-DE', 'fr-FR', 'es-ES', 'nl-NL', 'da-DK', 'nb-NO', 'en-GB']) {
       expect(localeWeekStart(tag)).toBe('monday');
     }
   });

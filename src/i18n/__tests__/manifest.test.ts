@@ -9,7 +9,7 @@ import {
 describe('locale manifest', () => {
   it('registers exactly the v1 set of locales', () => {
     expect(Object.keys(LOCALES).sort()).toEqual(
-      ['da-DK', 'de-DE', 'en-US', 'es-ES', 'fr-FR', 'nl-NL', 'pt-BR'].sort(),
+      ['da-DK', 'de-DE', 'en-US', 'es-ES', 'fr-FR', 'nb-NO', 'nl-NL', 'pt-BR'].sort(),
     );
   });
 
@@ -28,6 +28,7 @@ describe('locale manifest', () => {
     expect(LOCALES['nl-NL'].nativeName).toBe('Nederlands');
     expect(LOCALES['pt-BR'].nativeName).toBe('Português');
     expect(LOCALES['da-DK'].nativeName).toBe('Dansk');
+    expect(LOCALES['nb-NO'].nativeName).toBe('Norsk');
   });
 
   it('FALLBACK_LOCALE is en-US and is registered', () => {
